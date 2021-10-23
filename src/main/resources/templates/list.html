@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org/">
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
@@ -11,26 +11,35 @@
 
 <button onclick="location.href='home'">戻る</button>
 
-<table border="1" width = "500" height = "300" >
-    <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </table>
+    <thead>
+        <tr>
+          <th>社員コード</th>
+          <th>社員コード</th>
+          <th>名前</th>
+          <th>苗字</th>
+          <th>last_name_romaji</th>
+          <th>first_name_romaji</th>
+          <th>所属</th>
+          <th>社員コード</th>
+          <th>社員コード</th>
+         
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr th:each="user : ${userlist}" th:object="${user}" class="align-middle">
+          <td th:text="*{id}"></td>
+           <td th:text="*{staff_code}"></td>
+          <td th:text="*{last_name}"></td>
+          <td th:text="*{first_name}"></td>
+          <td th:text="*{last_name_romaji}"></td>
+          <td th:text="*{first_name_romaji}"></td>
+          <td th:text="*{staff_department}"></td>
+          <td th:text="*{project_type}"></td>
+          <td th:text="*{joined_year}"></td>
+          
+        </tr>
+      </tbody>
 
 
 </body>

@@ -1,7 +1,7 @@
 package com.example.demo.model;
 
 public class User {
-	private int id;
+	private long id;
 	private String staff_code;
 	private String last_name;
 	private String first_name;
@@ -16,11 +16,11 @@ public class User {
 	private String created_at;
 	private String updated_at;
 
-	public int getId() {
+	public long getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 

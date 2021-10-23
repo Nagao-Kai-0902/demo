@@ -1,5 +1,7 @@
 package com.example.demo.Service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,9 +12,13 @@ import com.example.demo.model.User;
 public class Service1 {
 	@Autowired
 	Database db;
-	public void new_employee(User user2) {
+	 public List<User> searchAll() {
+		    return db.findAll();
+		  }
+	public void new_employee(User user) {
+		// TODO 自動生成されたメソッド・スタブ
+		db.new_employee(user);
 		
-		db.new_employee(user2);
-		}
+	}
 
 }
