@@ -10,10 +10,10 @@
 <button onclick="location.href='new'">新規登録</button>
 
 <button onclick="location.href='home'">戻る</button>
-
+<table> 
     <thead>
         <tr>
-          <th>社員コード</th>
+          <th>id</th>
           <th>社員コード</th>
           <th>名前</th>
           <th>苗字</th>
@@ -26,21 +26,21 @@
           <th></th>
         </tr>
       </thead>
+      
       <tbody>
         <tr th:each="user : ${userlist}" th:object="${user}" class="align-middle">
           <td th:text="*{id}"></td>
-           <td th:text="*{staff_code}"></td>
+          <td th:text="*{staff_code}"></td>
           <td th:text="*{last_name}"></td>
           <td th:text="*{first_name}"></td>
           <td th:text="*{last_name_romaji}"></td>
           <td th:text="*{first_name_romaji}"></td>
           <td th:text="*{staff_department}"></td>
           <td th:text="*{project_type}"></td>
-          <td th:text="*{joined_year}"></td>
-          
+          <td th:text="*{joined_year}"></td>          
         </tr>
       </tbody>
 
-
+</table>
 </body>
 </html>
