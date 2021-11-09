@@ -27,6 +27,6 @@ public class NewController {
     	
     	return "result";
     }
-
+   
    
 }
