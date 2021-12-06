@@ -9,7 +9,7 @@ import com.example.demo.Dao.DaoImpl.Database;
 import com.example.demo.model.User;
 
 @Service
-public class Service1 {
+public class UserDataService {
 	@Autowired
 	Database db;
 	 public List<User> searchAll() {
