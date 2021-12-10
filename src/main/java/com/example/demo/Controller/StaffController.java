@@ -8,17 +8,16 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.example.demo.Service.UserDataService;
+import com.example.demo.Service.StaffDataService;
 import com.example.demo.model.User;
 
 @Controller
 
 public class StaffController {
 	@Autowired
-	UserDataService service1;
-	UserDataService sv;
+	StaffDataService service1;
+	StaffDataService sv;
     
 	@RequestMapping("home")
     public String home() {
@@ -26,27 +25,35 @@ public class StaffController {
     }
 	
 	@RequestMapping("new")
-    public String New() {
-        return "new";
+    public String newStaff() {
+		return "new";        
     }
     
-	@RequestMapping(method=RequestMethod.POST,value = "new/registration")
+	@RequestMapping("new/registration")
     public String insert(@ModelAttribute User user ) {
-    	
     	return "result";
     }
+	
+	public void displayResult(Model model) {
+		List<User> userList;
+		try {
+			userList = service1.searchAll();
+			model.addAttribute("userList", userList);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
     
     @GetMapping(value = "/list")
 	public String displayList(Model model) {
-		List<User> userlist;
+		List<User> userList;
 		try {
-			userlist = service1.searchAll();
-			model.addAttribute("userlist", userlist);
+			userList = service1.searchAll();
+			model.addAttribute("userList", userList);
 		} catch (Exception e) {
-			// TODO 自動生成された catch ブロック
 			e.printStackTrace();
 		}
-
+		
 		return "/list";
 	}
 }
