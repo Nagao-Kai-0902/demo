@@ -24,7 +24,8 @@ public class StaffDaoImpl {
 		
 	    String sql = "INSERT INTO staffs "
 	    + "(id, staff_code, last_name, first_name, last_name_romaji, first_name_romaji,"
-	    + "staff_department, project_type, joined_year, new_glad_flg,) "
+	    + "staff_department, project_type, joined_year, new_glad_flg, "
+	    + "created_by, updated_by, created_at,  updated_at)"
 	    + "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 	    jdbc.update(
 	        sql,
@@ -72,8 +73,8 @@ public class StaffDaoImpl {
 		return USER;
 	}
 
-	public static void setUSER(String uSER) {
-		USER = uSER;
+	public static void setUSER(String user) {
+		USER = user;
 	}
 
 }

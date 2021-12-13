@@ -16,8 +16,7 @@ import com.example.demo.model.User;
 
 public class StaffController {
 	@Autowired
-	StaffDataService service1;
-	StaffDataService sv;
+	StaffDataService service;
     
 	@RequestMapping("home")
     public String home() {
@@ -31,13 +30,14 @@ public class StaffController {
     
 	@RequestMapping("new/registration")
     public String insert(@ModelAttribute User user ) {
+		service.newEmployee(user);
     	return "result";
     }
 	
 	public void displayResult(Model model) {
 		List<User> userList;
 		try {
-			userList = service1.searchAll();
+			userList = service.searchAll();
 			model.addAttribute("userList", userList);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -48,7 +48,7 @@ public class StaffController {
 	public String displayList(Model model) {
 		List<User> userList;
 		try {
-			userList = service1.searchAll();
+			userList = service.searchAll();
 			model.addAttribute("userList", userList);
 		} catch (Exception e) {
 			e.printStackTrace();
