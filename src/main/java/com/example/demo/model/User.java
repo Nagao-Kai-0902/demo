@@ -1,9 +1,6 @@
 package com.example.demo.model;
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/branch2NewRegistration
 public class User {
 	private long id;
 	private String staff_code;
