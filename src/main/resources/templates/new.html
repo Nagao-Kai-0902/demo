@@ -1,29 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-<h1>社員情報新規登録</h1>
+<div class="toptitle">社員情報新規登録</div>
 
-<h1>社員情報</h1>
-<form  method="post" action = "/new/registration">
-<h3>社員コード</h3><input type="text" name="id"><br/>
-<h3>社員コード</h3><input type="text" name="staff_code"><br/>
-<h3>名前</h3><input type="text" name="last_name"><br/>
-<h3>苗字</h3><input type="text" name="first_name"><br/>
-<h3>last_name_romaji</h3><input type="text" name="last_name_romaji"><br/>
-<h3>first_name_romaji</h3><input type="text" name="first_name_romaji"><br/>
-<h3>所属</h3><input type="text" name="staff_department"><br/>
-<h3>社員コード</h3><input type="text" name="project_type"><br/>
-<h3>社員コード</h3><input type="text" name="joined_year"><br/>
-<input type="submit" value="登録">
+<div class="subtitle">社員情報</div>
+	<form  method="post" action = "/new/registration">
+		<div class="form-container">
+			<div>
+				id(<span>※</span>):
+				<input type="text" name="id">
+			</div>
+			
+			<div>
+				社員コード(<span>※</span>):
+				<input type="text" name="staff_code">
+			</div>
+			
+			<div>
+				名前(<span>※</span>):
+				<input type="text" name="last_name">
+			</div>
+			
+			<div>
+				苗字(<span>※</span>):
+				<input type="text" name="first_name">
+			<div>
+			
+			</div>
+				last_name_romaji(<span>※</span>):
+				<input type="text" name="last_name_romaji">
+			</div>
+			
+			<div>
+				first_name_romaji(<span>※</span>):
+				<input type="text" name="first_name_romaji">
+			</div>
+			
+			<div>
+				所属(<span>※</span>):
+				<input type="text" name="staff_department">
+			</div>
+			
+			<div>
+				経歴(<span>※</span>):
+				
+					<input type="radio"name="project_type" value="新卒" checked>新卒
+					<input type="radio"name="project_type" value="中途">中途
+			</div>
+			
+			<div>
+				入社年月日(<span>※</span>):
+				<input type="text" name="joined_year">
+			</div>
+			
+			<div>
+				案件概要/業務内容:
+				<textarea name="" id="" cols="30" rows="5" class="formbox"></textarea>
+			</div>
+		</div>
+		
+	 	<form action="new/registration">
+	 	<input type="submit" value="登録">
+	 	</form>
+	</form>
 
-<button onclick="location.href='home'">戻る</button>
-</form>
 
-
+<input type="button" onclick="location.href='list'" value="戻る">
 
 </body>
 </html>

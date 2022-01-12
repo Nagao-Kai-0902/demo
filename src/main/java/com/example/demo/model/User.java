@@ -1,7 +1,8 @@
 package com.example.demo.model;
 
+
 public class User {
-	private int id;
+	private long id;
 	private String staff_code;
 	private String last_name;
 	private String first_name;
@@ -11,16 +12,12 @@ public class User {
 	private String project_type;
 	private String joined_year;
 	private boolean new_glad_flg;
-	private String created_by;
-	private String updated_by;
-	private String created_at;
-	private String updated_at;
 
-	public int getId() {
+	public long getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 
@@ -94,38 +91,6 @@ public class User {
 
 	public void setNew_glad_flg(boolean new_glad_flg) {
 		this.new_glad_flg = new_glad_flg;
-	}
-
-	public String getCreated_by() {
-		return created_by;
-	}
-
-	public void setCreated_by(String created_by) {
-		this.created_by = created_by;
-	}
-
-	public String getUpdated_by() {
-		return updated_by;
-	}
-
-	public void setUpdated_by(String updated_by) {
-		this.updated_by = updated_by;
-	}
-
-	public String getCreated_at() {
-		return created_at;
-	}
-
-	public void setCreated_at(String created_at) {
-		this.created_at = created_at;
-	}
-
-	public String getUpdated_at() {
-		return updated_at;
-	}
-
-	public void setUpdated_at(String updated_at) {
-		this.updated_at = updated_at;
 	}
 
 }
