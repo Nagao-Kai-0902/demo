@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="stylesheet.css">
+	<title>Blue star</title>
+</head>
+
+<body>
+	<div id="topPage">
+		<div class="toptitle">社員情報</div>
+
+		<div class="engineer">
+			<form action="/list">
+			<input type="submit" value="管理画面へ" class="btn staffbtn">
+			</form>
+			<div class="subtitle">エンジニア</div>
+		</div>
+
+<table border="1" style="border-collapse: collapse;">
+  <thead style="display: block;">
+    <tr>
+      <th style="width:50px;">No</th>
+      <th style="width:150px;">姓名</th>
+      <th style="width:100px;">入社年月日</th>
+      <th style="width:75px;">経歴</th>
+      <th style="width:150px;">案件概要</th>
+    </tr>
+  </thead>
+
+  <tbody style="display: block;height:200px;">
+    <tr th:each="user : ${userList}" th:object="${user}" th:if="${Staff_department == 0001}" class="align-middle">
+      <td style="width:50px;"th:text="*{id}"></td>
+      <td style="width:150px;"></td>
+      <th style="width:100px;"></th>
+      <th style="width:75px;"></th>
+      <th style="width:150px;"></th>
+    </tr>
+
+
+  </tbody>
+</table>
+
+	</div>
+
+		<div class="engineer">
+			<div class="subtitle">営業</div>
+		</div>
+
+<table border="1" style="border-collapse: collapse;">
+  <thead style="display: block;">
+    <tr>
+      <th style="width:50px;">No</th>
+      <th style="width:150px;">姓名</th>
+      <th style="width:100px;">入社年月日</th>
+      <th style="width:75px;">経歴</th>
+      <th style="width:150px;">案件概要</th>
+    </tr>
+  </thead>
+
+  <tbody style="display: block;height:200px;">
+    <tr>
+      <td style="width:50px;"></td>
+      <td style="width:150px;"></td>
+      <th style="width:100px;"></th>
+      <th style="width:75px;"></th>
+      <th style="width:150px;"></th>
+    </tr>
+
+    <tr>
+      <td style="width:50px;"></td>
+      <td style="width:150px;"></td>
+      <th style="width:100px;"></th>
+      <th style="width:75px;"></th>
+      <th style="width:150px;"></th>
+    </tr>
+
+    <tr>
+      <td style="width:50px;"></td>
+      <td style="width:150px;"></td>
+      <th style="width:100px;"></th>
+      <th style="width:75px;"></th>
+      <th style="width:150px;"></th>
+    </tr>
+
+    <tr>
+      <td style="width:50px;"></td>
+      <td style="width:150px;"></td>
+      <th style="width:100px;"></th>
+      <th style="width:75px;"></th>
+      <th style="width:150px;"></th>
+    </tr>
+
+  </tbody>
+</table>
+
+</body>
+</html>
