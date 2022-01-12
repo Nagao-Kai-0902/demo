@@ -15549,3 +15549,499 @@ Caused by: org.apache.lucene.store.AlreadyClosedException: Underlying file chang
 2022-01-12 22:37:53,673 [Worker-21: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-01-12 22:37:53,673 [Worker-21: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-01-12 22:37:53,673 [Worker-21: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:31:17,195 [Worker-36: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:31:17,198 [Worker-36: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:31:17,204 [Worker-36: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:31:17,215 [Worker-36: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-01-12 23:31:17,222 [Worker-36: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:31:17,222 [Worker-36: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:31:17,222 [Worker-36: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:31:37,640 [Worker-27: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:31:37,640 [Worker-27: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:31:37,643 [Worker-27: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:31:37,654 [Worker-27: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-01-12 23:31:37,659 [Worker-27: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:31:37,660 [Worker-27: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:31:37,660 [Worker-27: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:32:48,346 [Worker-33: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:32:48,346 [Worker-33: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:32:48,349 [Worker-33: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:32:48,361 [Worker-33: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2022-01-12 23:32:48,366 [Worker-33: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:32:48,367 [Worker-33: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:32:48,367 [Worker-33: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:34:58,288 [Text Viewer Hover Presenter] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Scanning for dialect help files on project dependencies
+2022-01-12 23:34:58,514 [pool-29-thread-8] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Help file found: Java8Time.xml
+2022-01-12 23:34:58,514 [pool-29-thread-3] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Help file found: Standard-Dialect.xml
+2022-01-12 23:34:59,798 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:34:59,799 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:34:59,800 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-12 23:34:59,801 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:34:59,810 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:34:59,810 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:34:59,810 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:35:28,230 [main] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Scanning for dialect help files on project dependencies
+2022-01-12 23:35:28,303 [pool-30-thread-1] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Help file found: Java8Time.xml
+2022-01-12 23:35:28,305 [pool-30-thread-8] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Help file found: Standard-Dialect.xml
+2022-01-12 23:35:34,025 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:35:34,025 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:35:34,025 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-12 23:35:34,026 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:35:34,032 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:35:34,032 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:35:34,032 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:36:49,394 [Worker-37: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:36:49,394 [Worker-37: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:36:49,394 [Worker-37: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-12 23:36:49,395 [Worker-37: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:36:49,401 [Worker-37: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:36:49,401 [Worker-37: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:36:49,401 [Worker-37: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:37:03,863 [Worker-37: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:37:03,863 [Worker-37: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:37:03,863 [Worker-37: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-12 23:37:03,863 [Worker-37: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:37:03,869 [Worker-37: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:37:03,869 [Worker-37: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:37:03,869 [Worker-37: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:43:15,435 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:43:15,436 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:43:15,437 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-12 23:43:15,437 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:43:15,443 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:43:15,443 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:43:15,443 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:49:37,584 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:49:37,584 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:49:37,585 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-12 23:49:37,586 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:49:37,599 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:49:37,599 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:49:37,599 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:50:56,383 [Worker-44: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:50:56,383 [Worker-44: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:50:56,384 [Worker-44: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-12 23:50:56,384 [Worker-44: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:50:56,392 [Worker-44: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:50:56,392 [Worker-44: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:50:56,392 [Worker-44: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:51:49,108 [Worker-47: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:51:49,110 [Worker-47: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:51:49,110 [Worker-47: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-12 23:51:49,111 [Worker-47: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:51:49,123 [Worker-47: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:51:49,123 [Worker-47: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:51:49,123 [Worker-47: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:53:47,806 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:53:47,807 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:53:47,807 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-12 23:53:47,808 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:53:47,815 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:53:47,815 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:53:47,815 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:54:12,734 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:54:12,734 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:54:12,735 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-12 23:54:12,735 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:54:12,743 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:54:12,743 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:54:12,743 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:54:46,091 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:54:46,091 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:54:46,092 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-12 23:54:46,092 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:54:46,100 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:54:46,100 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:54:46,100 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:55:29,401 [Worker-47: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:55:29,401 [Worker-47: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:55:29,401 [Worker-47: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-12 23:55:29,401 [Worker-47: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:55:29,409 [Worker-47: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:55:29,409 [Worker-47: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:55:29,409 [Worker-47: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:57:06,884 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:57:06,884 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:57:06,885 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-12 23:57:06,886 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:57:06,894 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:57:06,894 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:57:06,894 [Worker-38: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:57:41,951 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:57:41,951 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:57:41,952 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-12 23:57:41,952 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:57:41,960 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:57:41,960 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:57:41,960 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:57:46,728 [Worker-54: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:57:46,728 [Worker-54: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:57:46,729 [Worker-54: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-12 23:57:46,729 [Worker-54: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:57:46,736 [Worker-54: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:57:46,736 [Worker-54: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:57:46,737 [Worker-54: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-12 23:58:07,806 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:58:07,807 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:58:07,807 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-12 23:58:07,808 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-12 23:58:07,816 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-12 23:58:07,816 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-12 23:58:07,816 [Worker-48: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:05:51,510 [Worker-54: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:05:51,510 [Worker-54: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:05:51,510 [Worker-54: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:05:51,511 [Worker-54: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:05:51,518 [Worker-54: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:05:51,518 [Worker-54: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:05:51,518 [Worker-54: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:08:47,219 [Worker-58: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:08:47,220 [Worker-58: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:08:47,220 [Worker-58: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:08:47,221 [Worker-58: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:08:47,228 [Worker-58: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:08:47,228 [Worker-58: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:08:47,228 [Worker-58: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:09:48,507 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:09:48,508 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:09:48,508 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:09:48,508 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:09:48,514 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:09:48,514 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:09:48,514 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:09:57,386 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:09:57,387 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:09:57,387 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:09:57,387 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:09:57,394 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:09:57,394 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:09:57,394 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:10:19,131 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:10:19,131 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:10:19,132 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:10:19,132 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:10:19,138 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:10:19,139 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:10:19,139 [Worker-60: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:11:01,689 [Worker-56: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:11:01,689 [Worker-56: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:11:01,689 [Worker-56: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:11:01,689 [Worker-56: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:11:01,695 [Worker-56: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:11:01,695 [Worker-56: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:11:01,695 [Worker-56: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:21:04,917 [Worker-64: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:21:04,918 [Worker-64: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:21:04,919 [Worker-64: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:21:04,919 [Worker-64: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:21:04,926 [Worker-64: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:21:04,926 [Worker-64: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:21:04,927 [Worker-64: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:21:40,191 [Worker-63: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:21:40,191 [Worker-63: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:21:40,191 [Worker-63: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:21:40,192 [Worker-63: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:21:40,199 [Worker-63: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:21:40,199 [Worker-63: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:21:40,199 [Worker-63: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:24:00,582 [Worker-65: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:24:00,583 [Worker-65: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:24:00,583 [Worker-65: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:24:00,584 [Worker-65: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:24:00,592 [Worker-65: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:24:00,592 [Worker-65: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:24:00,592 [Worker-65: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:26:14,001 [Worker-69: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:26:14,001 [Worker-69: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:26:14,001 [Worker-69: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:26:14,002 [Worker-69: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:26:14,010 [Worker-69: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:26:14,010 [Worker-69: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:26:14,010 [Worker-69: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:29:03,659 [Worker-69: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:29:03,659 [Worker-69: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:29:03,660 [Worker-69: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:29:03,660 [Worker-69: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:29:03,668 [Worker-69: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:29:03,668 [Worker-69: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:29:03,668 [Worker-69: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:30:56,270 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:30:56,270 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:30:56,270 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:30:56,271 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:30:56,276 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:30:56,276 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:30:56,276 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:32:33,748 [Worker-65: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:32:33,749 [Worker-65: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:32:33,749 [Worker-65: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:32:33,750 [Worker-65: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:32:33,758 [Worker-65: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:32:33,758 [Worker-65: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:32:33,758 [Worker-65: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:33:49,365 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:33:49,365 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:33:49,366 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:33:49,366 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:33:49,372 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:33:49,372 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:33:49,372 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:34:29,249 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:34:29,250 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:34:29,250 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:34:29,250 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:34:29,257 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:34:29,258 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:34:29,258 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:34:41,322 [Worker-74: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:34:41,322 [Worker-74: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:34:41,322 [Worker-74: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:34:41,323 [Worker-74: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:34:41,331 [Worker-74: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:34:41,331 [Worker-74: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:34:41,331 [Worker-74: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:35:13,821 [Worker-70: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:35:13,822 [Worker-70: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:35:13,822 [Worker-70: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:35:13,823 [Worker-70: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:35:13,831 [Worker-70: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:35:13,831 [Worker-70: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:35:13,831 [Worker-70: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:36:09,729 [Worker-74: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:36:09,730 [Worker-74: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:36:09,730 [Worker-74: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:36:09,730 [Worker-74: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:36:09,740 [Worker-74: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:36:09,740 [Worker-74: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:36:09,740 [Worker-74: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:36:47,786 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:36:47,786 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:36:47,787 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:36:47,787 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:36:47,794 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:36:47,794 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:36:47,794 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:37:19,368 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:37:19,368 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:37:19,369 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:37:19,369 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:37:19,377 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:37:19,377 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:37:19,377 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:40:56,269 [Worker-70: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:40:56,269 [Worker-70: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:40:56,270 [Worker-70: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:40:56,271 [Worker-70: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:40:56,276 [Worker-70: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:40:56,276 [Worker-70: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:40:56,277 [Worker-70: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:41:10,817 [Worker-77: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:41:10,817 [Worker-77: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:41:10,817 [Worker-77: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:41:10,817 [Worker-77: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:41:10,824 [Worker-77: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:41:10,824 [Worker-77: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:41:10,824 [Worker-77: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:41:43,372 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:41:43,372 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:41:43,372 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:41:43,372 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:41:43,378 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:41:43,378 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:41:43,378 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:41:57,943 [Worker-76: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:41:57,943 [Worker-76: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:41:57,944 [Worker-76: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:41:57,944 [Worker-76: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:41:57,952 [Worker-76: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:41:57,952 [Worker-76: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:41:57,952 [Worker-76: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:42:39,618 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:42:39,618 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:42:39,619 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:42:39,619 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:42:39,626 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:42:39,626 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:42:39,626 [Worker-67: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:42:58,122 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:42:58,123 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:42:58,123 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:42:58,124 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:42:58,129 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:42:58,130 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:42:58,130 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:43:25,338 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:43:25,339 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:43:25,339 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:43:25,340 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:43:25,347 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:43:25,347 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:43:25,347 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:50:17,803 [Worker-79: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:50:17,803 [Worker-79: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:50:17,803 [Worker-79: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:50:17,804 [Worker-79: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:50:17,811 [Worker-79: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:50:17,811 [Worker-79: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:50:17,811 [Worker-79: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:50:34,451 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:50:34,451 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:50:34,452 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:50:34,452 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:50:34,460 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:50:34,460 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:50:34,461 [Worker-78: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:52:21,537 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:52:21,538 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:52:21,538 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:52:21,539 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:52:21,546 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:52:21,546 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:52:21,546 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 00:52:30,736 [Worker-81: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:52:30,736 [Worker-81: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:52:30,737 [Worker-81: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 00:52:30,737 [Worker-81: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 00:52:30,744 [Worker-81: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 00:52:30,745 [Worker-81: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 00:52:30,745 [Worker-81: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:00:35,160 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:00:35,160 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:00:35,161 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:00:35,161 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:00:35,167 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:00:35,168 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:00:35,168 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:05:10,636 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:05:10,637 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:05:10,638 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:05:10,638 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:05:10,646 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:05:10,646 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:05:10,646 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:08:48,989 [Worker-89: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:08:48,990 [Worker-89: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:08:48,990 [Worker-89: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:08:48,991 [Worker-89: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:08:48,998 [Worker-89: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:08:48,998 [Worker-89: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:08:48,998 [Worker-89: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:09:17,331 [Worker-88: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:09:17,332 [Worker-88: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:09:17,332 [Worker-88: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:09:17,332 [Worker-88: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:09:17,340 [Worker-88: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:09:17,340 [Worker-88: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:09:17,340 [Worker-88: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:09:44,756 [Worker-88: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:09:44,756 [Worker-88: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:09:44,756 [Worker-88: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:09:44,757 [Worker-88: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:09:44,764 [Worker-88: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:09:44,764 [Worker-88: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:09:44,764 [Worker-88: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:09:58,033 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:09:58,033 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:09:58,034 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:09:58,034 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:09:58,041 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:09:58,041 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:09:58,041 [Worker-80: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:10:18,482 [Worker-89: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:10:18,482 [Worker-89: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:10:18,483 [Worker-89: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:10:18,483 [Worker-89: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:10:18,493 [Worker-89: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:10:18,493 [Worker-89: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:10:18,493 [Worker-89: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:10:32,647 [Worker-85: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:10:32,647 [Worker-85: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:10:32,648 [Worker-85: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:10:32,648 [Worker-85: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:10:32,655 [Worker-85: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:10:32,655 [Worker-85: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:10:32,655 [Worker-85: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:10:40,037 [Worker-85: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:10:40,037 [Worker-85: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:10:40,037 [Worker-85: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:10:40,037 [Worker-85: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:10:40,043 [Worker-85: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:10:40,044 [Worker-85: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:10:40,044 [Worker-85: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:34:51,804 [Worker-95: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:34:51,808 [Worker-95: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:34:51,810 [Worker-95: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:34:51,811 [Worker-95: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:34:51,823 [Worker-95: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:34:51,823 [Worker-95: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:34:51,823 [Worker-95: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:35:57,363 [Worker-95: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:35:57,364 [Worker-95: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:35:57,364 [Worker-95: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:35:57,365 [Worker-95: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:35:57,372 [Worker-95: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:35:57,372 [Worker-95: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:35:57,372 [Worker-95: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:40:31,612 [Worker-97: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:40:31,612 [Worker-97: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:40:31,613 [Worker-97: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:40:31,613 [Worker-97: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:40:31,618 [Worker-97: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:40:31,619 [Worker-97: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:40:31,619 [Worker-97: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:43:31,754 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:43:31,755 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:43:31,755 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:43:31,755 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:43:31,761 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:43:31,761 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:43:31,761 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:47:17,953 [Worker-102: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:47:17,953 [Worker-102: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:47:17,954 [Worker-102: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:47:17,954 [Worker-102: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:47:17,962 [Worker-102: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:47:17,962 [Worker-102: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:47:17,962 [Worker-102: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:53:52,596 [Worker-106: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:53:52,596 [Worker-106: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:53:52,596 [Worker-106: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:53:52,597 [Worker-106: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:53:52,603 [Worker-106: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:53:52,603 [Worker-106: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:53:52,604 [Worker-106: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:55:09,334 [Worker-107: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:55:09,335 [Worker-107: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:55:09,335 [Worker-107: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:55:09,336 [Worker-107: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:55:09,343 [Worker-107: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:55:09,344 [Worker-107: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:55:09,344 [Worker-107: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 01:56:53,826 [Worker-109: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:56:53,827 [Worker-109: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:56:53,827 [Worker-109: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 01:56:53,827 [Worker-109: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 01:56:53,834 [Worker-109: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 01:56:53,834 [Worker-109: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 01:56:53,834 [Worker-109: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 02:00:31,107 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 02:00:31,107 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 02:00:31,108 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 02:00:31,109 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 02:00:31,116 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 02:00:31,117 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 02:00:31,117 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 02:01:00,626 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 02:01:00,626 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 02:01:00,626 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 02:01:00,627 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 02:01:00,632 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 02:01:00,632 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 02:01:00,632 [Worker-100: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
+2022-01-13 02:01:45,305 [Worker-110: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 02:01:45,305 [Worker-110: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 02:01:45,306 [Worker-110: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-13 02:01:45,306 [Worker-110: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-01-13 02:01:45,313 [Worker-110: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-13 02:01:45,313 [Worker-110: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-01-13 02:01:45,313 [Worker-110: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\demo-branch1 (1)\demo\src\test\resources
