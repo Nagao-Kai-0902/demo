@@ -48,7 +48,6 @@ INDEX VERSION 1.131+C:\Users\kainagao\OneDrive\デスクトップ\pleiades\eclipse\dem
 1560368139.index
 1419478480.index
 4029237762.index
-3435648363.index
 1391830978.index
 1082913981.index
 2561322444.index
