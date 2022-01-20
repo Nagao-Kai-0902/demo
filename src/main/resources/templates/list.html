@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org/">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="stylesheet.css">
+	<title>管理画面</title>
+</head>
+<body>
+<div id="listPage">
+		<div class="toptitle">新規情報管理</div>
+			
+		<div class="engineer">
+			<form action="new">
+			<input type="submit" value="新規登録" class="staffbtnnew">
+			</form>
+			<form action="home">
+			<input type="submit" value="戻る" class="staffbtn">
+			</form>
+			<div class="subtitle">エンジニア</div>
+		</div>
+</div>>
+
+<table border="1" style="border-collapse: collapse;">
+	   <thead style="display: block;">
+	    <tr>
+	      <th style="width:50px;">No</th>
+	      <th style="width:150px;">社員コード</th>
+	      <th style="width:150px;">姓名</th>
+	      <th style="width:200px;">姓名ローマ字</th>
+	      <th style="width:100px;">入社年月日</th>
+	      <th style="width:75px;">編集</th>
+	      <th style="width:75px;">削除</th>
+	    </tr>
+	  </thead>
+      
+      <tbody style="display: block;height:200px;">
+        <tr th:each="user : ${userList}" th:object="${user}" class="align-middle">
+          <td style="width:50px;"th:text="*{id}"></td>
+          <td style="width:150px;"th:text="*{staff_code}"></td>
+          <td style="width:150px;"th:text="*{last_name} + *{first_name}"></td>
+          <td style="width:200px;"th:text="*{last_name_romaji} + *{first_name_romaji}"></td>
+          <td style="width:100px;"th:text="*{joined_year}"></td>
+          <td style="width:75px;">
+          	<form action="/">
+				<input type="submit" value="更新">
+			</form>
+		  </td>
+          <td style="width:75px;">
+          	<form action="/">
+				<input type="submit" value="削除">
+			</form>
+          </td>          
+        </tr>
+      </tbody>
+
+</table>
+</body>
+</html>
