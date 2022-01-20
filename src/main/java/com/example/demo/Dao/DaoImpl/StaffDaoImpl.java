@@ -68,6 +68,31 @@ public class StaffDaoImpl {
 
 	        return userList;
 	}
+	
+public List<User> findDepartment() { //staff_departmentの値を取得してきたい
+		
+		String sql = "SELECT * FROM staffs WHERE staff_department = ?" //WHERE文、？にすることでさまざまな値に対応
+				+ " id,staff_code,last_name,first_name,last_name_romaji"
+				+ " ,first_name_romaji,staff_department,project_type,joined_year,new_glad_flg"
+				+ "	,created_by,updated_by,created_at,updated_at FROM staffs";
+		List<Map<String, Object>> engineer = jdbc.queryForList(sql);// sqlテーブルのデータを全件取得
+		List<User> engineerList = new ArrayList<User>();//結果返却用の変数
+		 for(Map<String, Object> eachUser: engineer) { // 取得したデータを結果返却用のListに格納していく
+	            User user = new User();//Userインスタンスの生成
+	         // Userインスタンスに取得したデータをセットする
+	            user.setId((long)eachUser.get("id"));
+	            user.setStaff_code((String)eachUser.get("staff_code"));
+	            user.setLast_name((String)eachUser.get("last_name"));
+		        user.setFirst_name((String)eachUser.get("first_name"));
+		        user.setLast_name_romaji((String)eachUser.get("last_name_romaji"));
+		        user.setFirst_name_romaji((String)eachUser.get("first_name_romaji"));
+		        user.setJoined_year((String)eachUser.get("joined_year"));
+	            // UserオブジェクトをListに追加する。
+				engineerList.add(user);
+	        }
+
+	        return engineerList;
+	}
 
 	public static String getUSER() {
 		return USER;
@@ -75,6 +100,11 @@ public class StaffDaoImpl {
 
 	public static void setUSER(String user) {
 		USER = user;
+	}
+
+	public void findDepartment(String engineer) {
+		// TODO 自動生成されたメソッド・スタブ
+		
 	}
 
 }

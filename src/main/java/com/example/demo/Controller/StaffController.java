@@ -20,7 +20,11 @@ public class StaffController {
 	StaffDataService service;
     
 	@RequestMapping(path = "home",method = RequestMethod.GET )
-    public String home() {
+    public String home(Model model) {
+		String engineer = "0001";
+		service.findDepartment(engineer);
+		model.addAttribute("engineerList", "engineer");
+		
         return "home";
     }
 	
