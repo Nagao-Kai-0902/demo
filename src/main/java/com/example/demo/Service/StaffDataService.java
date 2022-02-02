@@ -20,5 +20,13 @@ public class StaffDataService {
 		db.newEmployee(user);
 		
 	}
+	
+	public List<User> findDepartment(String staffDepartment) {
+		
+		List<User> test = db.findDepartment(staffDepartment) ;
+		
+		return test;
+		
+	}
 
 }

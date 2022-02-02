@@ -20,7 +20,24 @@ public class StaffController {
 	StaffDataService service;
     
 	@RequestMapping(path = "home",method = RequestMethod.GET )
-    public String home() {
+    public String home(Model model) {
+		String engineer = "0001";
+		String sales = "0002";
+		String corporate = "0003";
+		List<User> engineerMembers;
+		List<User> salesMembers;
+		List<User> corporateMembers;
+		try {
+		engineerMembers = service.findDepartment(engineer);
+		salesMembers = service.findDepartment(sales);
+		corporateMembers = service.findDepartment(corporate);
+		model.addAttribute("engineerMembers", engineerMembers);
+		model.addAttribute("salesMembers", salesMembers);
+		model.addAttribute("corporateMembers", corporateMembers);
+		}  catch (Exception e) {
+			e.printStackTrace();
+		}
+		
         return "home";
     }
 	
@@ -29,7 +46,7 @@ public class StaffController {
 		return "new";        
     }
     
-	@RequestMapping(path = "new/registration", method = RequestMethod.GET)
+	@RequestMapping(path = "new/registration", method = RequestMethod.POST)
     public String insert(@ModelAttribute User user ) {
 		service.newEmployee(user);
     	return "result";
@@ -46,7 +63,7 @@ public class StaffController {
 	}
     
     @GetMapping(value = "/list")
-	public String displayList(Model model) {
+    public String displayList(Model model) {
 		List<User> userList;
 		try {
 			userList = service.searchAll();

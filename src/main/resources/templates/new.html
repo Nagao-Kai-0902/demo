@@ -11,10 +11,6 @@
 <div class="subtitle">社員情報</div>
 	<form  method="post" action = "/new/registration">
 		<div class="form-container">
-			<div>
-				id(<span>※</span>):
-				<input type="text" name="id">
-			</div>
 			
 			<div>
 				社員コード(<span>※</span>):
@@ -22,12 +18,12 @@
 			</div>
 			
 			<div>
-				名前(<span>※</span>):
+				苗字(<span>※</span>):
 				<input type="text" name="last_name">
 			</div>
 			
 			<div>
-				苗字(<span>※</span>):
+				名前(<span>※</span>):
 				<input type="text" name="first_name">
 			<div>
 			
@@ -43,14 +39,18 @@
 			
 			<div>
 				所属(<span>※</span>):
-				<input type="text" name="staff_department">
+				<select name="staff_department" size="1">
+					<option value="">3つの選択肢を表示</option>
+					<option value="0001">エンジニア</option>
+					<option value="0002">営業</option>
+					<option value="0003">コーポレート</option>
+				</select>
 			</div>
 			
 			<div>
 				経歴(<span>※</span>):
-				
-					<input type="radio"name="project_type" value="新卒" checked>新卒
-					<input type="radio"name="project_type" value="中途">中途
+				<input type="radio" name="new_glad_flg" value="true" checked>新卒
+				<input type="radio" name="new_glad_flg" value="false">中途
 			</div>
 			
 			<div>
@@ -60,7 +60,7 @@
 			
 			<div>
 				案件概要/業務内容:
-				<textarea name="" id="" cols="30" rows="5" class="formbox"></textarea>
+				<textarea name="project_type" cols="30" rows="5" class="formbox" WRAP="hard"></textarea>
 			</div>
 		</div>
 		

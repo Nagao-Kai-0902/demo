@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-	margin: 60px 160px;
+	margin: 50px 160px;
 }
 
 .staffbtn {
@@ -32,6 +32,9 @@ table th{
 
 table td{
   padding : 20px;
+}
+p {
+	white-space: pre-wrap
 }
 
 .form-container {
