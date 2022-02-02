@@ -85,7 +85,7 @@ public class User {
 		this.joined_year = joined_year;
 	}
 
-	public boolean isNew_glad_flg() {
+	public boolean getNew_glad_flg() {
 		return new_glad_flg;
 	}
 
@@ -93,4 +93,13 @@ public class User {
 		this.new_glad_flg = new_glad_flg;
 	}
 
+
+	public void setStat_count(String string) {
+		// TODO 自動生成されたメソッド・スタブ
+		
+	}
+
+
+
+	
 }

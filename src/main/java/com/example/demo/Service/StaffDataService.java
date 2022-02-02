@@ -21,9 +21,11 @@ public class StaffDataService {
 		
 	}
 	
-	public String findDepartment(String engineer) {
-		 db.findDepartment(engineer) ;
-		return engineer;
+	public List<User> findDepartment(String staffDepartment) {
+		
+		List<User> test = db.findDepartment(staffDepartment) ;
+		
+		return test;
 		
 	}
 
