@@ -74,4 +74,10 @@ public class StaffController {
 		
 		return "/list";
 	}
+    
+    @RequestMapping(path = "update", method = RequestMethod.GET)
+    public String update() {
+		return "update";        
+    }
+   
 }

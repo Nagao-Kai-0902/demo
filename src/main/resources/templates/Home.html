@@ -22,11 +22,11 @@
 
 <div th:if="${engineerMembers ne null}">
 	<table border="1" style="border-collapse: collapse;">
-	  <thead style="display: block;">
+	  <thead style="display: block; box-sizing: border-box;">
 	    <tr>
 	      <th style="width:50px;">No</th>
 	      <th style="width:150px;">姓 名</th>
-	      <th style="width:106px;">入社年月日</th>
+	      <th style="width:110px;">入社年月日</th>
 	      <th style="width:75px;">経歴</th>
 	      <th style="width:150px;">案件概要</th>
 	    </tr>
@@ -36,11 +36,11 @@
 	   <tr th:each="engineerList ,stat : ${engineerMembers}" th:object="${engineerList}" class="align-middle">
 	      <th style="width:50px;"th:text="${stat.count}"></th>
 	      <th style="width:150px;"th:text="*{last_name} +' ' + *{first_name}"></th>
-	      <th style="width:100px;"th:text="*{joined_year}"></th>
+	      <th style="width:110px;"th:text="*{joined_year}"></th>
 	      <th style="width:75px;" th:if="*{new_glad_flg == false}" th:text="新卒"></th>
 	      <th style="width:75px;" th:if="*{new_glad_flg == true}" th:text="中途"></th>
-	      <th style="white-space:pre-wrap;" th:if="*{project_type ne null}" th:text="*{project_type}" class="p"></th>
-	      <th style="white-space:pre-wrap;" th:if="*{project_type == null}" class="p">-</th>
+	      <th style="width:150px;" th:if="*{project_type ne null}" th:text="*{project_type}" class="textp"></th>
+	      <th style="width:150px;" th:if="*{project_type == null}" class="textp">-</th>
 	   </tr>
 	  </tbody>
 	</table>
@@ -54,11 +54,11 @@
 
 <div th:if="${salesMembers ne null}">
 	<table border="1" style="border-collapse: collapse;">
-	  <thead style="display: block;">
+	   <thead style="display: block; box-sizing: border-box;">
 	    <tr>
 	      <th style="width:50px;">No</th>
-	      <th style="width:150px;">姓名</th>
-	      <th style="width:106px;">入社年月日</th>
+	      <th style="width:150px;">姓 名</th>
+	      <th style="width:110px;">入社年月日</th>
 	      <th style="width:75px;">経歴</th>
 	      <th style="width:150px;">案件概要</th>
 	    </tr>
@@ -68,11 +68,11 @@
 	    <tr th:each="engineerList ,stat : ${salesMembers}" th:object="${engineerList}" class="align-middle">
 	      <th style="width:50px;"th:text="${stat.count}"></th>
 	      <th style="width:150px;"th:text="*{last_name} +' ' + *{first_name}"></th>
-	      <th style="width:100px;"th:text="*{joined_year}"></th>
+	      <th style="width:110px;"th:text="*{joined_year}"></th>
 	      <th style="width:75px;" th:if="*{new_glad_flg == true}" th:text="新卒"></th>
 	      <th style="width:75px;" th:if="*{new_glad_flg == false}" th:text="中途"></th>
-	      <th style="white-space:pre-wrap;" th:if="*{project_type ne null}" th:text="*{project_type}"></th>
-	      <th style="white-space:pre-wrap;" th:if="*{project_type == null}">-</th>
+	      <th style="white-space:pre-wrap;" th:if="*{project_type ne null}" th:text="*{project_type}" class="textp"></th>
+	      <th style="white-space:pre-wrap;" th:if="*{project_type == null}" class="textp">-</th>
 	   </tr>
 	  </tbody>
 	</table>
@@ -86,11 +86,11 @@
 
 <div th:if="${corporateMembers ne null}">
 	<table border="1" style="border-collapse: collapse;">
-	  <thead style="display: block;">
+	  <thead style="display: block; box-sizing: border-box;">
 	    <tr>
 	      <th style="width:50px;">No</th>
-	      <th style="width:150px;">姓名</th>
-	      <th style="width:106px;">入社年月日</th>
+	      <th style="width:150px;">姓 名</th>
+	      <th style="width:110px;">入社年月日</th>
 	      <th style="width:75px;">経歴</th>
 	      <th style="width:150px;">案件概要</th>
 	    </tr>
@@ -100,11 +100,11 @@
 	    <tr th:each="engineerList ,stat : ${corporateMembers}" th:object="${engineerList}" class="align-middle">
 	      <th style="width:50px;"th:text="${stat.count}"></th>
 	      <th style="width:150px;"th:text="*{last_name} +' ' + *{first_name}"></th>
-	      <th style="width:100px;"th:text="*{joined_year}"></th>
+	      <th style="width:110px;"th:text="*{joined_year}"></th>
 	      <th style="width:75px;" th:if="*{new_glad_flg == true}" th:text="新卒"></th>
 	      <th style="width:75px;" th:if="*{new_glad_flg == false}" th:text="中途"></th>
-	      <th style="white-space:pre-wrap;" th:if="*{project_type ne null}" th:text="*{project_type}"></th>
-	      <th style="white-space:pre-wrap;" th:if="*{project_type == null}">-</th>
+	      <th style="white-space:pre-wrap;" th:if="*{project_type ne null}" th:text="*{project_type}" class="textp"></th>
+	      <th style="white-space:pre-wrap;" th:if="*{project_type == null}" class="textp">-</th>
 	   </tr>
 	  </tbody>
 	</table>

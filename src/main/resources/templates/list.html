@@ -21,34 +21,35 @@
 </div>
 
 <table border="1" style="border-collapse: collapse;">
-	   <thead style="display: block;">
+	   <thead style="display: inline-block;">
 	    <tr>
-	      <th style="width:42px;">No</th>
-	      <th style="width:122px;">社員コード</th>
-	      <th style="width:113px;">姓名</th>
-	      <th style="width:190px;">姓名ローマ字</th>
-	      <th style="width:115px;">入社年月日</th>
-	      <th style="width:68px;">編集</th>
-	      <th style="width:69px;">削除</th>
+	      <th style="width:20px;">No</th>
+	      <th style="width:85px;">社員コード</th>
+	      <th style="width:75px;">姓 名</th>
+	      <th style="width:140px;">姓名ローマ字</th>
+	      <th style="width:110px;">入社年月日</th>
+	      <th style="width:50px;">編集</th>
+	      <th style="width:50px;">削除</th>
 	    </tr>
 	  </thead>
       
-      <tbody style="display: block;">
+      <tbody style="display: inline-block;">
           <tr th:each="user ,stat : ${userList}" th:object="${user}" class="align-middle">
-          <td style="width:50px;"th:text="${stat.count}"></td>
-          <td style="width:150px;"th:text="*{staff_code}"></td>
-          <td style="width:150px;"th:text="*{last_name} + *{first_name}"></td>
-          <td style="width:200px;"th:text="*{last_name_romaji} + *{first_name_romaji}"></td>
-          <td style="width:100px;"th:text="*{joined_year}"></td>
-          <td style="width:75px;">
-          	<form action="/">
+          <th style="width:25px;"th:text="${stat.count}"></th>
+          <th style="width:85px;"th:text="*{staff_code}"></th>
+          <th style="width:75px;"th:text="*{last_name} + ' '+ *{first_name}"></th>
+          <th style="width:140px;"th:text="*{last_name_romaji} + *{first_name_romaji}"></th>
+          <th style="width:110px;"th:text="*{joined_year}"></th>
+          <th style="width:50px;">
+          	<form action="update">
 				<input type="submit" value="更新">
 			</form>
-          <td style="width:75px;">
-          	<form action="/">
+		  </th>
+          <th style="width:50px;">
+          	<form action="delete">
 				<input type="submit" value="削除">
 			</form>
-          </td>          
+          </th>          
         </tr>
       </tbody>
 
