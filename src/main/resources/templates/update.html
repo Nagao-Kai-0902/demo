@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org/">
 <head>
 	<meta charset="UTF-8">
 	<title>Insert title here</title>
@@ -10,12 +10,12 @@
 	<div class="toptitle">社員情報更新</div>
 	
 	<div class="subtitle">社員情報</div>
-		<form  method="post" action = "/new/registration">
+		<form  method="post" action = "/new/registration" th:object="${user}">
 			<div class="form-container">
 				
 				<div>
 					社員コード(<span>※</span>):
-					<input type="text" name="staff_code">
+					<input type="text" name="staff_code" th:field="*{staff_code}">
 				</div>
 				
 				<div>

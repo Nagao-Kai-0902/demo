@@ -28,5 +28,11 @@ public class StaffDataService {
 		return test;
 		
 	}
+	
+	public User selectOne(String staffCode) {
+        // selectOne実行
+		return db.selectOne(staffCode);
+//        return db.selectOne();
+	}
 
 }

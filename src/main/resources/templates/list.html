@@ -41,7 +41,7 @@
           <th style="width:140px;"th:text="*{last_name_romaji} + *{first_name_romaji}"></th>
           <th style="width:110px;"th:text="*{joined_year}"></th>
           <th style="width:50px;">
-          	<form action="update">
+          	<form th:action="@{'/update/' + ${user.staff_code}}" method="get">
 				<input type="submit" value="更新">
 			</form>
 		  </th>

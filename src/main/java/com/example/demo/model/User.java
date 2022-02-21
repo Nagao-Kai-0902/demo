@@ -99,6 +99,11 @@ public class User {
 		
 	}
 
+	public void setUserStaffCode(String staff_code2) {
+		// TODO 自動生成されたメソッド・スタブ
+		
+	}
+
 
 
 	
