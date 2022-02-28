@@ -12,6 +12,7 @@ import org.springframework.stereotype.Repository;
 
 import com.example.demo.model.User;
 
+
 @Repository
 
 public class StaffDaoImpl {
@@ -117,10 +118,9 @@ public class StaffDaoImpl {
 		return engineerList; // staffListを呼び出し元に返す（今回はServiceclassに）
 	}
 	
-	@SuppressWarnings("unchecked")
 	public User selectOne(String staffCode) {
 		
-		Map<String, Object> staff = jdbc.queryForMap("SELECT * FROM staffs WHERE staff_code = ?", staffCode); // sqlテーブルのデータを1件取得
+		Map<String, Object> staff = jdbc.queryForMap("SELECT * FROM staffs WHERE staff_code = ?", staffCode); // sqlテーブルのデータを1件取得; // sqlテーブルのデータを1件取得
 		 
 		User user = new User();
 		user.setId((long) staff.get("id"));
@@ -136,9 +136,42 @@ public class StaffDaoImpl {
 		return user; // eachUserを
 	}
 	
-	public int updateOne(User user) throws DataAccessException {
-        return 0;
+	public User updateOne(String staffCode) throws DataAccessException {
+		
+		String sql = "UPDATE staffs "
+					+"set staff_code = ?"
+					+"last_name = ?"
+					+"first_name = ?"
+					+"last_name_romaji = ?"
+					+"first_name_romaji = ?"
+					+"joined_year = ?"
+					+"new_glad_flg = ?"
+					+"staff_department = ?"
+					+"project_type = ?"
+					+"WHERE staff_code = staffCode";
+					
+				
+		Map<String, Object> staff = jdbc.queryForMap(sql, staffCode);
+		
+		User user = new User();// Userインスタンスの生成
+		// Userインスタンスに取得したデータをセットする
+		user.setId((long) staff.get("id"));
+		user.setStaff_code((String) staff.get("staff_code"));
+		user.setLast_name((String) staff.get("last_name"));
+		user.setFirst_name((String) staff.get("first_name"));
+		user.setLast_name_romaji((String) staff.get("last_name_romaji"));
+		user.setFirst_name_romaji((String) staff.get("first_name_romaji"));
+		user.setJoined_year((String) staff.get("joined_year"));
+		user.setNew_glad_flg((Boolean) staff.get("new_glad_flg"));
+		user.setStaff_department((String) staff.get("staff_department"));
+		user.setProject_type((String) staff.get("project_type"));
+		return user; // eachUserを
     }
+
+	public static void save(User user2) {
+		// TODO 自動生成されたメソッド・スタブ
+		
+	}
 
 
 }

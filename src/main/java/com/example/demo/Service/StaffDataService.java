@@ -34,5 +34,11 @@ public class StaffDataService {
 		return db.selectOne(staffCode);
 //        return db.selectOne();
 	}
+	
+	public User updateOne(String staffCode) {
+        // selectOne実行
+		 return db.updateOne(staffCode);
+//        return db.selectOne();
+	}
 
 }

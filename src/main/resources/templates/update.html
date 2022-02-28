@@ -1,77 +1,28 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org/">
+<!-- Tymeleafを使用するには下記の通りURLをつける。 -->
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-	<meta charset="UTF-8">
-	<title>Insert title here</title>
-	<link rel="stylesheet" href="stylesheet.css">
+<meta charset="UTF-8">
+<title>結果画面</title>
 </head>
-
 <body>
-	<div class="toptitle">社員情報更新</div>
-	
-	<div class="subtitle">社員情報</div>
-		<form  method="post" action = "/new/registration" th:object="${user}">
-			<div class="form-container">
-				
-				<div>
-					社員コード(<span>※</span>):
-					<input type="text" name="staff_code" th:field="*{staff_code}">
-				</div>
-				
-				<div>
-					姓(<span>※</span>):
-					<input type="text" name="last_name">
-				</div>
-				
-				<div>
-					名(<span>※</span>):
-					<input type="text" name="first_name">
-				<div>
-				
-				</div>
-					姓 ローマ字(<span>※</span>):
-					<input type="text" name="last_name_romaji">
-				</div>
-				
-				<div>
-					名 ローマ字(<span>※</span>):
-					<input type="text" name="first_name_romaji">
-				</div>
-				
-				<div>
-					所属(<span>※</span>):
-					<select name="staff_department" size="1">
-						<option value="">3つの選択肢を表示</option>
-						<option value="0001">エンジニア</option>
-						<option value="0002">営業</option>
-						<option value="0003">コーポレート</option>
-					</select>
-				</div>
-				
-				<div>
-					経歴(<span>※</span>):
-					<input type="radio" name="new_glad_flg" value="true" checked>新卒
-					<input type="radio" name="new_glad_flg" value="false">中途
-				</div>
-				
-				<div>
-					入社年月日(<span>※</span>):
-					<input type="text" name="joined_year">
-				</div>
-				
-				<div>
-					案件概要/業務内容:
-					<textarea name="project_type" cols="30" rows="5" class="formbox" WRAP="hard"></textarea>
-				</div>
-			</div>
-			
-		 	<form action="new/registration">
-		 	<input type="submit" value="更新">
-		 	</form>
-		</form>
-	
-	
-	<input type="button" onclick="location.href='list'" value="戻る">
+<div th:text="*{id}">1</div><br/>
+<div th:text="*{name}"></div><br/>
+<h2>更新成功</h2>
 
+
+<form method="get" action="/home">
+
+<input type="submit" value="戻る"/>
+</form>
+
+<!-- オブジェクトを指定する場合 -->
+<!-- 
+<form method="post" action="/back" th:object="${form}">
+ID：<div th:text="*{id}">1</div><br/>
+ユーザー名：<div th:text="*{name}">太郎さん</div><br/>
+<input type="submit" value="戻る"/>
+</form>
+ -->
 </body>
 </html>
