@@ -8,9 +8,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.example.demo.Service.StaffDataService;
 import com.example.demo.model.User;
@@ -50,11 +50,11 @@ public class StaffController {
     
 	@RequestMapping(path = "new/registration", method = RequestMethod.POST)
     public String insert(@ModelAttribute User user ) {
+		
 		service.newEmployee(user);
+		
     	return "result";
     }
-	
-	
 	
 	public void displayResult(Model model) {
 		List<User> userList;
@@ -88,11 +88,31 @@ public class StaffController {
 		return "/edit";
 	}
     
-    @PostMapping(value = "update")
-    public String update(@ModelAttribute String staffCode ) {
+    @RequestMapping(path = "/update", method = RequestMethod.POST)
+    public String update(Model model, User user ,@RequestParam String staff_code_before ) {
+
+    	service.updateOne(staff_code_before, user);
     	
-    	service.updateOne(staffCode);
     	return "/update" ;
     }
+    
+    @GetMapping(value = "/delete/{staff_code}")
+    public String displayDelete(Model model, @PathVariable("staff_code") String staffCode) {
+        
+            User user = service.deleteOne(staffCode);
+            model.addAttribute("user", user);
+
+		return "/delete";
+	}
+    
+    @RequestMapping(path = "/destroy", method = RequestMethod.POST)
+    public String destroy(Model model, User user ,@RequestParam String staff_code) {
+    	
+    	service.destroyOne(staff_code, user);
+    	
+    	return "/destroy" ;
+    }
+    
+    
    
 }

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 	<meta charset="UTF-8">
 	<title>Insert title here</title>
-	<link rel="stylesheet" href="stylesheet.css">
+	<link th:href="@{/stylesheet.css}" rel="styleSheet">
 </head>
 
 <body>
@@ -39,8 +39,8 @@
 			</div>
 			
 			<div>
-				所属(<span>※</span>):
-				<select name="staff_department" size="1">
+				所属    (<span>※</span>):                    
+				<select name="staff_department" size="1" class = box>
 					<option value="">3つの選択肢を表示</option>
 					<option value="0001">エンジニア</option>
 					<option value="0002">営業</option>
@@ -49,9 +49,9 @@
 			</div>
 			
 			<div>
-				経歴(<span>※</span>):
-				<input type="radio" name="new_glad_flg" value="true" checked>新卒
-				<input type="radio" name="new_glad_flg" value="false">中途
+				経歴  (<span>※</span>):
+				<input type="radio" name="new_glad_flg" value="true" checked class = radio>新卒
+				<input type="radio" name="new_glad_flg" value="false"class = radio>中途
 			</div>
 			
 			<div>
@@ -60,18 +60,17 @@
 			</div>
 			
 			<div>
-				案件概要/業務内容:
+				<label>案件概要/業務内容:</label>
 				<textarea name="project_type" cols="30" rows="5" class="formbox" WRAP="hard"></textarea>
 			</div>
 		</div>
 		
-	 	<form action="new/registration">
-	 	<input type="submit" value="登録">
-	 	</form>
+	
+	 	<input type="submit" value="登録" class="registbtn">
 	</form>
 
 
-<input type="button" onclick="location.href='list'" value="戻る">
+<input type="button" onclick="location.href='/list'" value="戻る" class = backbtn>
 
 </body>
 </html>

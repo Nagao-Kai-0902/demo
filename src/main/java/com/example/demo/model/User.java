@@ -103,8 +103,5 @@ public class User {
 		// TODO 自動生成されたメソッド・スタブ
 		
 	}
-
-
-
 	
 }

@@ -8,6 +8,14 @@ body {
 	position: absolute;
 	right: 90px;
 }
+.backbtn{
+	position: absolute;
+	right: 500px;
+}
+.registbtn{
+	position: absolute;
+	right: 450px;
+}
 
 .staffbtnnew {
 	position: absolute;
@@ -48,10 +56,28 @@ p {
 	text-align: right;
 	padding: 5px 350px 5px 0;
 }
+.box{
+	width: 170px;
+}
+.radio{
+	margin-left: 35px;
+	
+}
 .formbox {
-	width: 250px;
+	width: 165px;
 	border: 1px solid;
-	margin: 5px;
-	padding: 5px 0;
+	margin-top: 5px;
+
 	text-align: left;
+}
+textarea{
+	vertical-align: top;
+}
+.disabled{
+	pointer-events: none;
+	width: 170px;
+}
+.disabled1{
+	pointer-events: none;
+	margin-left: 35px;
 }

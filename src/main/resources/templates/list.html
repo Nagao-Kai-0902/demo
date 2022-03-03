@@ -2,7 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org/">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="stylesheet.css">
+	<link th:href="@{/stylesheet.css}" rel="styleSheet">
 	<title>管理画面</title>
 </head>
 <body>
@@ -23,10 +23,10 @@
 <table border="1" style="border-collapse: collapse;">
 	   <thead style="display: inline-block;">
 	    <tr>
-	      <th style="width:20px;">No</th>
-	      <th style="width:85px;">社員コード</th>
+	      <th style="width:27.46px;">No</th>
+	      <th style="width:82px;">社員コード</th>
 	      <th style="width:75px;">姓 名</th>
-	      <th style="width:140px;">姓名ローマ字</th>
+	      <th style="width:140px;">姓名 ローマ字</th>
 	      <th style="width:110px;">入社年月日</th>
 	      <th style="width:50px;">編集</th>
 	      <th style="width:50px;">削除</th>
@@ -35,21 +35,21 @@
       
       <tbody style="display: inline-block;">
           <tr th:each="user ,stat : ${userList}" th:object="${user}" class="align-middle">
-          <th style="width:25px;"th:text="${stat.count}"></th>
-          <th style="width:85px;"th:text="*{staff_code}"></th>
-          <th style="width:75px;"th:text="*{last_name} + ' '+ *{first_name}"></th>
-          <th style="width:140px;"th:text="*{last_name_romaji} + *{first_name_romaji}"></th>
-          <th style="width:110px;"th:text="*{joined_year}"></th>
-          <th style="width:50px;">
+          <td style="width:27.46px;"th:text="${stat.count}"></td>
+          <td style="width:82.2px;"th:text="*{staff_code}"></td>
+          <td style="width:75px;"th:text="*{last_name} + ' '+ *{first_name}"></td>
+          <td style="width:140.2px;"th:text="*{last_name_romaji} + ' '+ *{first_name_romaji}"></td>
+          <td style="width:110px;"th:text="*{joined_year}"></td>
+          <td style="width:50.1px;">
           	<form th:action="@{'/edit/' + ${user.staff_code}}" method="get">
 				<input type="submit" value="更新">
 			</form>
-		  </th>
-          <th style="width:50px;">
-          	<form action="delete">
+		  </td>
+          <td style="width:50px;">
+          	<form th:action="@{'/delete/' + ${user.staff_code}}" method = "get">
 				<input type="submit" value="削除">
 			</form>
-          </th>          
+          </td>          
         </tr>
       </tbody>
 

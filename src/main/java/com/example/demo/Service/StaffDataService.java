@@ -10,15 +10,17 @@ import com.example.demo.model.User;
 
 @Service
 public class StaffDataService {
+	
 	@Autowired
 	StaffDaoImpl db;
+	
 	 public List<User> searchAll() {
+		 
 		    return db.findAll();
 		  }
 	public void newEmployee(User user) {
 
 		db.newEmployee(user);
-		
 	}
 	
 	public List<User> findDepartment(String staffDepartment) {
@@ -26,19 +28,27 @@ public class StaffDataService {
 		List<User> test = db.findDepartment(staffDepartment) ;
 		
 		return test;
-		
 	}
 	
 	public User selectOne(String staffCode) {
-        // selectOne実行
+
 		return db.selectOne(staffCode);
-//        return db.selectOne();
+
 	}
 	
-	public User updateOne(String staffCode) {
-        // selectOne実行
-		 return db.updateOne(staffCode);
-//        return db.selectOne();
+	public void updateOne(String staff_code_before, User user) {
+		
+		 db.updateOne(staff_code_before, user);
+	}
+	
+	public User deleteOne(String staffCode) {
+		
+		return db.deleteOne(staffCode);
+	}
+	
+	public void destroyOne(String staff_code, User user) {
+
+		 db.destroyOne(staff_code, user);
 	}
 
 }
