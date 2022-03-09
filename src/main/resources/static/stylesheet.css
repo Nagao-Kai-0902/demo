@@ -8,11 +8,13 @@ body {
 	position: absolute;
 	right: 90px;
 }
-.backbtn{
+
+.backbtn {
 	position: absolute;
 	right: 500px;
 }
-.registbtn{
+
+.registbtn {
 	position: absolute;
 	right: 450px;
 }
@@ -34,19 +36,22 @@ body {
 	margin-top: 30px;
 }
 
-.align-middle{
+.align-middle {
 	box-sizing: border-box;
 }
-table th{
-  padding : 30px;
+
+table th {
+	padding: 30px;
 }
 
-table td{
-  padding : 30px;
+table td {
+	padding: 30px;
 }
+
 p {
 	white-space: pre-wrap
 }
+
 .textp {
 	width: 150px;
 	white-space: pre;
@@ -56,28 +61,32 @@ p {
 	text-align: right;
 	padding: 5px 350px 5px 0;
 }
-.box{
+
+.box {
 	width: 170px;
 }
-.radio{
+
+.radio {
 	margin-left: 35px;
-	
 }
+
 .formbox {
 	width: 165px;
 	border: 1px solid;
 	margin-top: 5px;
-
 	text-align: left;
 }
-textarea{
+
+textarea {
 	vertical-align: top;
 }
-.disabled{
+
+.disabled {
 	pointer-events: none;
 	width: 170px;
 }
-.disabled1{
+
+.disabled1 {
 	pointer-events: none;
 	margin-left: 35px;
 }
