@@ -1,6 +1,5 @@
 package com.example.demo.model;
 
-
 public class User {
 	private long id;
 	private String staff_code;
@@ -93,15 +92,4 @@ public class User {
 		this.new_glad_flg = new_glad_flg;
 	}
 
-
-	public void setStat_count(String string) {
-		// TODO 自動生成されたメソッド・スタブ
-		
-	}
-
-	public void setUserStaffCode(String staff_code2) {
-		// TODO 自動生成されたメソッド・スタブ
-		
-	}
-	
 }
