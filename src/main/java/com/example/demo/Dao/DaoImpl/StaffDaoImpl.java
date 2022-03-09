@@ -101,7 +101,6 @@ public class StaffDaoImpl {
 		for (Map<String, Object> eachUser : staffList) { // 取得したデータを結果返却用のengineerListに格納していく
 			User user = new User();// Userインスタンスの生成
 			// Userインスタンスに取得したデータをセットする
-			user.setStat_count((String) eachUser.get("stat.count"));
 			user.setId((long) eachUser.get("id"));
 			user.setStaff_code((String) eachUser.get("staff_code"));
 			user.setLast_name((String) eachUser.get("last_name"));
