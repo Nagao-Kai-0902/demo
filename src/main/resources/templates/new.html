@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{layout/template}">
+
 <head>
 <meta charset="UTF-8">
+
 <title>Insert title here</title>
 <link th:href="@{/stylesheet.css}" rel="styleSheet">
 </head>
@@ -10,51 +14,85 @@
 	<div class="toptitle">社員情報新規登録</div>
 
 	<div class="subtitle">社員情報</div>
-	<form method="post" action="/new/registration">
+	<!-- <table>
+		<tr th:if="${validationError}" th:each="error : ${validationError}">
+			<td style="color: red;" th:text="${error}"></td>
+		</tr>
+	</table> -->
+	<form method="post" action="/new/registration" th:object="${user}">
 		<div class="form-container">
 
 			<div>
-				社員コード(<span>※</span>): <input type="text" name="staff_code">
+				<div class="form-group">
+					社員コード(<span>※</span>): <input type="text" name="staff_code"
+						class="formbox"
+						th:classappend="${#fields.hasErrors('staff_code')}?'is-invalid'">
+					<div th:if="${#fields.hasErrors('staff_code')}"
+						th:errors="*{staff_code}" style="color: red;"></div>
+
+				</div>
 			</div>
 
 			<div>
-				姓(<span>※</span>): <input type="text" name="last_name">
+				姓(<span>※</span>): <input type="text" name="last_name"
+					class="formbox" th:classappend="${#fields.hasErrors('last_name')}?'is-invalid'">
+				<div th:if="${#fields.hasErrors('last_name')}"
+					th:errors="*{last_name}" style="color: red;"></div>
+
 			</div>
 
 			<div>
-				名(<span>※</span>): <input type="text" name="first_name">
+				名(<span>※</span>): <input type="text" name="first_name"
+					class="formbox" th:classappend="${#fields.hasErrors('first_name')}?'is-invalid'">
+				<div th:if="${#fields.hasErrors('first_name')}"
+					th:errors="*{first_name}" style="color: red;"></div>
+
 				<div></div>
-				姓 ローマ字(<span>※</span>): <input type="text" name="last_name_romaji">
+				姓 ローマ字(<span>※</span>): <input type="text" name="last_name_romaji"
+					class="formbox" th:classappend="${#fields.hasErrors('last_name_romaji')}?'is-invalid'">
+				<div th:if="${#fields.hasErrors('last_name_romaji')}"
+					th:errors="*{last_name_romaji}" style="color: red;"></div>
 			</div>
 
 			<div>
-				名 ローマ字(<span>※</span>): <input type="text" name="first_name_romaji">
+				名 ローマ字(<span>※</span>): <input type="text" name="first_name_romaji"
+					class="formbox" th:classappend="${#fields.hasErrors('first_name_romaji')}?'is-invalid'">
+				<div th:if="${#fields.hasErrors('first_name_romaji')}"
+					th:errors="*{first_name_romaji}" style="color: red;"></div>
 			</div>
 
 			<div>
 				所属 (<span>※</span>): <select name="staff_department" size="1"
-					class=box>
-					<option value="">3つの選択肢を表示</option>
+					class="box" th:classappend="${#fields.hasErrors('staff_department')}?'is-invalid'">
+					<option value="" >3つの選択肢を表示</option>
 					<option value="0001">エンジニア</option>
 					<option value="0002">営業</option>
 					<option value="0003">コーポレート</option>
 				</select>
+
+				<div th:if="${#fields.hasErrors('staff_department')}"
+					th:errors="*{staff_department}" style="color: red;"></div>
 			</div>
 
-			<div>
+			<div class=radioBox>
 				経歴 (<span>※</span>): <input type="radio" name="new_glad_flg"
-					value="true" checked class=radio>新卒 <input type="radio"
-					name="new_glad_flg" value="false" class=radio>中途
+					value="true" th:text="新卒" checked> <input type="radio"
+					name="new_glad_flg" value="false" th:text="中途" class=radio>
 			</div>
 
 			<div>
-				入社年月日(<span>※</span>): <input type="text" name="joined_year">
+				入社年月日(<span>※</span>): <input type="text" name="joined_year"
+					class="formbox" th:classappend="${#fields.hasErrors('joined_year')}?'is-invalid'">
+				<div th:if="${#fields.hasErrors('joined_year')}"
+					th:errors="*{joined_year}" style="color: red;"></div>
 			</div>
 
 			<div>
 				<label>案件概要/業務内容:</label>
 				<textarea name="project_type" cols="30" rows="5" class="formbox"
-					WRAP="hard"></textarea>
+					WRAP="hard" th:classappend="${#fields.hasErrors('project_type')}?'is-invalid'"></textarea>
+				<div th:if="${#fields.hasErrors('project_type')}"
+					th:errors="*{project_type}" style="color: red;"></div>
 			</div>
 		</div>
 

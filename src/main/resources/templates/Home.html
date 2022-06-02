@@ -12,7 +12,7 @@
 
 		<div class="engineer">
 			<form action="/list">
-				<input type="submit" value="管理画面へ" class="btn staffbtn">
+				<input type="submit" value="管理画面へ" class="staffbtn">
 			</form>
 			<div class="subtitle">エンジニア</div>
 		</div>
@@ -24,29 +24,32 @@
 		<table border="1" style="border-collapse: collapse;">
 			<thead style="display: block; box-sizing: border-box;">
 				<tr>
-					<th style="width: 50px;">No</th>
-					<th style="width: 150px;">姓 名</th>
-					<th style="width: 110px;">入社年月日</th>
-					<th style="width: 75px;">経歴</th>
-					<th style="width: 150px;">案件概要</th>
+					<th style="width: 55px; font-weight: normal;">No</th>
+					<th style="width: 225px; font-weight: normal;">姓 名</th>
+					<th style="width: 165px; font-weight: normal;">入社年月日</th>
+					<th style="width: 105px; font-weight: normal;">経歴</th>
+					<th style="width: 225px; font-weight: normal;">案件概要</th>
 				</tr>
 			</thead>
 
 			<tbody style="display: block;">
 				<tr th:each="engineerList ,stat : ${engineerMembers}"
 					th:object="${engineerList}" class="align-middle">
-					<th style="width: 50px;" th:text="${stat.count}"></th>
-					<th style="width: 150px;"
+					<th style="width: 55px; font-weight: normal;"
+						th:text="${stat.count}"></th>
+					<th style="width: 225px; font-weight: normal;"
 						th:text="*{last_name} +' ' + *{first_name}"></th>
-					<th style="width: 110px;" th:text="*{joined_year}"></th>
-					<th style="width: 75px;" th:if="*{new_glad_flg == false}"
-						th:text="新卒"></th>
-					<th style="width: 75px;" th:if="*{new_glad_flg == true}"
-						th:text="中途"></th>
-					<th style="width: 150px;" th:if="*{project_type ne null}"
-						th:text="*{project_type}" class="textp"></th>
-					<th style="width: 150px;" th:if="*{project_type == null}"
-						class="textp">-</th>
+					<th style="width: 165px; font-weight: normal;"
+						th:text="*{joined_year}"></th>
+					<th style="width: 105px; font-weight: normal;"
+						th:if="*{new_glad_flg == false}" th:text="新卒"></th>
+					<th style="width: 105px; font-weight: normal;"
+						th:if="*{new_glad_flg == true}" th:text="中途"></th>
+					<th style="width: 225px; font-weight: normal;"
+						th:if="*{project_type ne null}" th:text="*{project_type}"
+						class="textp"></th>
+					<th style="width: 225px; font-weight: normal;"
+						th:if="*{project_type == null}" class="textp">-</th>
 				</tr>
 			</tbody>
 		</table>
@@ -62,29 +65,32 @@
 		<table border="1" style="border-collapse: collapse;">
 			<thead style="display: block; box-sizing: border-box;">
 				<tr>
-					<th style="width: 50px;">No</th>
-					<th style="width: 150px;">姓 名</th>
-					<th style="width: 110px;">入社年月日</th>
-					<th style="width: 75px;">経歴</th>
-					<th style="width: 150px;">案件概要</th>
+					<th style="width: 55px; font-weight: normal;">No</th>
+					<th style="width: 225px; font-weight: normal;">姓 名</th>
+					<th style="width: 165px; font-weight: normal;">入社年月日</th>
+					<th style="width: 105px; font-weight: normal;">経歴</th>
+					<th style="width: 225px; font-weight: normal;">案件概要</th>
 				</tr>
 			</thead>
 
 			<tbody style="display: block;">
 				<tr th:each="engineerList ,stat : ${salesMembers}"
 					th:object="${engineerList}" class="align-middle">
-					<th style="width: 50px;" th:text="${stat.count}"></th>
-					<th style="width: 150px;"
+					<th style="width: 55px; font-weight: normal;"
+						th:text="${stat.count}"></th>
+					<th style="width: 225px; font-weight: normal;"
 						th:text="*{last_name} +' ' + *{first_name}"></th>
-					<th style="width: 110px;" th:text="*{joined_year}"></th>
-					<th style="width: 75px;" th:if="*{new_glad_flg == true}"
-						th:text="新卒"></th>
-					<th style="width: 75px;" th:if="*{new_glad_flg == false}"
-						th:text="中途"></th>
-					<th style="white-space: pre-wrap;" th:if="*{project_type ne null}"
-						th:text="*{project_type}" class="textp"></th>
-					<th style="white-space: pre-wrap;" th:if="*{project_type == null}"
-						class="textp">-</th>
+					<th style="width: 165px; font-weight: normal;"
+						th:text="*{joined_year}"></th>
+					<th style="width: 105px; font-weight: normal;"
+						th:if="*{new_glad_flg == false}" th:text="新卒"></th>
+					<th style="width: 105px; font-weight: normal;"
+						th:if="*{new_glad_flg == true}" th:text="中途"></th>
+					<th style="width: 225px; font-weight: normal;"
+						th:if="*{project_type ne null}" th:text="*{project_type}"
+						class="textp"></th>
+					<th style="width: 225px; font-weight: normal;"
+						th:if="*{project_type == null}" class="textp">-</th>
 				</tr>
 			</tbody>
 		</table>
@@ -100,29 +106,32 @@
 		<table border="1" style="border-collapse: collapse;">
 			<thead style="display: block; box-sizing: border-box;">
 				<tr>
-					<th style="width: 50px;">No</th>
-					<th style="width: 150px;">姓 名</th>
-					<th style="width: 110px;">入社年月日</th>
-					<th style="width: 75px;">経歴</th>
-					<th style="width: 150px;">案件概要</th>
+					<th style="width: 55px; font-weight: normal;">No</th>
+					<th style="width: 225px; font-weight: normal;">姓 名</th>
+					<th style="width: 165px; font-weight: normal;">入社年月日</th>
+					<th style="width: 105px; font-weight: normal;">経歴</th>
+					<th style="width: 225px; font-weight: normal;">案件概要</th>
 				</tr>
 			</thead>
 
 			<tbody style="display: block;">
 				<tr th:each="engineerList ,stat : ${corporateMembers}"
 					th:object="${engineerList}" class="align-middle">
-					<th style="width: 50px;" th:text="${stat.count}"></th>
-					<th style="width: 150px;"
+					<th style="width: 55px; font-weight: normal;"
+						th:text="${stat.count}"></th>
+					<th style="width: 225px; font-weight: normal;"
 						th:text="*{last_name} +' ' + *{first_name}"></th>
-					<th style="width: 110px;" th:text="*{joined_year}"></th>
-					<th style="width: 75px;" th:if="*{new_glad_flg == true}"
-						th:text="新卒"></th>
-					<th style="width: 75px;" th:if="*{new_glad_flg == false}"
-						th:text="中途"></th>
-					<th style="white-space: pre-wrap;" th:if="*{project_type ne null}"
-						th:text="*{project_type}" class="textp"></th>
-					<th style="white-space: pre-wrap;" th:if="*{project_type == null}"
-						class="textp">-</th>
+					<th style="width: 165px; font-weight: normal;"
+						th:text="*{joined_year}"></th>
+					<th style="width: 105px; font-weight: normal;"
+						th:if="*{new_glad_flg == false}" th:text="新卒"></th>
+					<th style="width: 105px; font-weight: normal;"
+						th:if="*{new_glad_flg == true}" th:text="中途"></th>
+					<th style="width: 225px; font-weight: normal;"
+						th:if="*{project_type ne null}" th:text="*{project_type}"
+						class="textp"></th>
+					<th style="width: 225px; font-weight: normal;"
+						th:if="*{project_type == null}" class="textp">-</th>
 				</tr>
 			</tbody>
 		</table>
