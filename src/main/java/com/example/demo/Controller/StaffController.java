@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.example.demo.Service.StaffDataService;
+import com.example.demo.model.GroupOrder;
 import com.example.demo.model.User;
 
 @Controller
@@ -55,7 +56,7 @@ public class StaffController {
 	}
 
 	@RequestMapping(path = "new/registration", method = RequestMethod.POST)
-	public String insert(@ModelAttribute("user") @Validated User user,  BindingResult result, Model model,
+	public String insert(@ModelAttribute("user") @Validated(GroupOrder.class) User user,  BindingResult result, Model model,
 			RedirectAttributes redirectAttributes) {
 
 		if (result.hasErrors()) {
@@ -106,7 +107,7 @@ public class StaffController {
 	}
 
 	@RequestMapping(path = "/update", method = RequestMethod.POST)
-	public String update(@ModelAttribute("user") @Validated User user, BindingResult result, Model model,
+	public String update(@ModelAttribute("user") @Validated(GroupOrder.class) User user, BindingResult result, Model model,
 			RedirectAttributes redirectAttributes, @PathVariable("staff_code_before") @RequestParam String staff_code_before,
 			String staff_code) {
 
