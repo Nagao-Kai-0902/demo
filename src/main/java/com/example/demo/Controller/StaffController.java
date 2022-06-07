@@ -55,7 +55,7 @@ public class StaffController {
 	}
 
 	@RequestMapping(path = "new/registration", method = RequestMethod.POST)
-	public String insert(@ModelAttribute("user") @Validated User user, BindingResult result, Model model,
+	public String insert(@ModelAttribute("user") @Validated User user,  BindingResult result, Model model,
 			RedirectAttributes redirectAttributes) {
 
 		if (result.hasErrors()) {

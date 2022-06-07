@@ -79,17 +79,22 @@ body {
 table {
 	margin-left: auto;
     margin-right: auto;
+    
 }
 
 table th {
 	padding: 5px;
-	
 }
 
 p {
-	white-space: pre-wrap
+	white-space: pre-wrap;
 }
-
+/*管理画面CSSローマ字の変更  */
+.nameP {
+	word-wrap: break-word;
+	display:inline-block;
+	
+}
 .textp {
 	width: 150px;
 	white-space: pre;

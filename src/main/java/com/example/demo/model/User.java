@@ -1,5 +1,6 @@
 package com.example.demo.model;
 
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
@@ -10,13 +11,15 @@ public class User {
 	@NotEmpty(message = "社員コードを入力してください。")
 	@Pattern(regexp = "^[a-zA-Z0-9]+$", message = "社員コードは半角数値で入力してください。")
 	@Size(min = 4, max = 4, message = "社員コードは4文字で入力してください。")
+	/* カスタム＠登録しようとしている社員コードがすでに登録されていたらエラー出力 */
+	@UnUsedStaffCode(message="すでにその社員コードは登録されています")
 	private String staff_code;
 
-	@NotEmpty(message = "姓を入力してください。")
+	@NotBlank(message = "姓を入力してください。")
 	@Size(max = 20, message = "姓は20文字で入力してください。")
 	private String last_name;
 
-	@NotEmpty(message = "名を入力してください。")
+	@NotBlank(message = "名を入力してください。")
 	@Size(max = 20, message = "名は20文字で入力してください。")
 	private String first_name;
 
@@ -31,6 +34,7 @@ public class User {
 	private String first_name_romaji;
 
 	@NotEmpty(message = "所属を選択して下さい。")
+	
 	private String staff_department;
 
 	@Size(max = 100, message = "案件は100文字以下で入力して下さい。")

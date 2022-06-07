@@ -36,6 +36,10 @@ public class StaffDaoImpl {
 				nowTime // updated_at
 		);
 	}
+	public void findStaffCode(String staffCode) {
+		String sql = "SELECT staff_code FROM staffs WHERE staff_code = ?";
+		
+	}
 
 	public List<User> findAll() {
 

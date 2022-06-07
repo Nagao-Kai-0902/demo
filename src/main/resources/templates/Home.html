@@ -38,7 +38,7 @@
 					<th style="width: 55px; font-weight: normal;"
 						th:text="${stat.count}"></th>
 					<th style="width: 225px; font-weight: normal;"
-						th:text="*{last_name} +' ' + *{first_name}"></th>
+						th:text="*{last_name} + ' ' + *{first_name}"></th>
 					<th style="width: 165px; font-weight: normal;"
 						th:text="*{joined_year}"></th>
 					<th style="width: 105px; font-weight: normal;"
@@ -46,10 +46,11 @@
 					<th style="width: 105px; font-weight: normal;"
 						th:if="*{new_glad_flg == true}" th:text="中途"></th>
 					<th style="width: 225px; font-weight: normal;"
-						th:if="*{project_type ne null}" th:text="*{project_type}"
-						class="textp"></th>
+						th:if="${#strings.isEmpty(project_type)}" th:text="*{project_type}"
+						class="textp">-</th>
 					<th style="width: 225px; font-weight: normal;"
-						th:if="*{project_type == null}" class="textp">-</th>
+						th:if="${!#strings.isEmpty(project_type)}"
+						th:text="'-'" class="textp"></th>
 				</tr>
 			</tbody>
 		</table>
