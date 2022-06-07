@@ -1,108 +1,105 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org"
-	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-	layout:decorate="~{layout/template}">
-
+<html xmlns:th="http://www.thymeleaf.org/">
 <head>
 <meta charset="UTF-8">
-
 <title>Insert title here</title>
 <link th:href="@{/stylesheet.css}" rel="styleSheet">
 </head>
 
 <body>
-	<div class="toptitle">社員情報新規登録</div>
+	<div class="toptitle">社員情報更新</div>
 
 	<div class="subtitle">社員情報</div>
-	<!-- <table>
-		<tr th:if="${validationError}" th:each="error : ${validationError}">
-			<td style="color: red;" th:text="${error}"></td>
-		</tr>
-	</table> -->
-	<form method="post" action="/new/registration" th:object="${user}">
+	<form method="post" action="/update" th:object="${user}">
 		<div class="form-container">
 
 			<div>
-				<div class="form-group">
-					社員コード(<span>※</span>): <input type="text" name="staff_code"
-						class="formbox"
-						th:classappend="${#fields.hasErrors('staff_code')}?'is-invalid'">
-					<div th:if="${#fields.hasErrors('staff_code')}"
-						th:errors="*{staff_code}" style="color: red;"></div>
-
-				</div>
+				社員コード(<span>※</span>): <input type="text" name="staff_code"
+					th:field="*{staff_code}" class="formbox"
+					th:classappend="${#fields.hasErrors('staff_code')}?'is-invalid'">
+				<input type="hidden" name="staff_code_before"
+					th:value="${staff_code}">
+				<div th:if="${#fields.hasErrors('staff_code')}"
+					th:errors="*{staff_code}" style="color: red;"></div>
 			</div>
 
 			<div>
 				姓(<span>※</span>): <input type="text" name="last_name"
-					class="formbox" th:classappend="${#fields.hasErrors('last_name')}?'is-invalid'">
+					th:field="*{last_name}" class="formbox"
+					th:classappend="${#fields.hasErrors('last_name')}?'is-invalid'">
 				<div th:if="${#fields.hasErrors('last_name')}"
 					th:errors="*{last_name}" style="color: red;"></div>
-
 			</div>
 
 			<div>
 				名(<span>※</span>): <input type="text" name="first_name"
-					class="formbox" th:classappend="${#fields.hasErrors('first_name')}?'is-invalid'">
+					th:field="*{first_name}" class="formbox"
+					th:classappend="${#fields.hasErrors('first_name')}?'is-invalid'">
 				<div th:if="${#fields.hasErrors('first_name')}"
 					th:errors="*{first_name}" style="color: red;"></div>
-
 				<div></div>
 				姓 ローマ字(<span>※</span>): <input type="text" name="last_name_romaji"
-					class="formbox" th:classappend="${#fields.hasErrors('last_name_romaji')}?'is-invalid'">
+					th:field="*{last_name_romaji}" class="formbox"
+					th:classappend="${#fields.hasErrors('last_name_romaji')}?'is-invalid'">
 				<div th:if="${#fields.hasErrors('last_name_romaji')}"
 					th:errors="*{last_name_romaji}" style="color: red;"></div>
+
 			</div>
 
 			<div>
 				名 ローマ字(<span>※</span>): <input type="text" name="first_name_romaji"
-					class="formbox" th:classappend="${#fields.hasErrors('first_name_romaji')}?'is-invalid'">
+					th:field="*{first_name_romaji}" class="formbox"
+					th:classappend="${#fields.hasErrors('first_name_romaji')}?'is-invalid'">
 				<div th:if="${#fields.hasErrors('first_name_romaji')}"
 					th:errors="*{first_name_romaji}" style="color: red;"></div>
 			</div>
 
 			<div>
-				所属 (<span>※</span>): <select name="staff_department" size="1"
-					class="box" th:classappend="${#fields.hasErrors('staff_department')}?'is-invalid'">
-					<option value="" >3つの選択肢を表示</option>
+				所属(<span>※</span>): <select name="staff_department" size="1"
+					th:field="*{staff_department}" class="box"
+					th:classappend="${#fields.hasErrors('staff_department')}?'is-invalid'">
+					<option value="">3つの選択肢を表示</option>
 					<option value="0001">エンジニア</option>
 					<option value="0002">営業</option>
 					<option value="0003">コーポレート</option>
 				</select>
-
 				<div th:if="${#fields.hasErrors('staff_department')}"
 					th:errors="*{staff_department}" style="color: red;"></div>
 			</div>
 
 			<div class=radioBox>
-				経歴 (<span>※</span>): <input type="radio" name="new_glad_flg"
-					value="true" th:text="新卒" checked> <input type="radio"
-					name="new_glad_flg" value="false" th:text="中途" class=radio>
+				経歴(<span>※</span>): <input type="radio" name="new_glad_flg"
+					value="false" checked th:text="新卒" th:field="*{new_glad_flg}">
+				<input type="radio" name="new_glad_flg" value="true" th:text="中途"
+					class=radio th:field="*{new_glad_flg}">
 			</div>
 
 			<div>
 				入社年月日(<span>※</span>): <input type="text" name="joined_year"
-					class="formbox" th:classappend="${#fields.hasErrors('joined_year')}?'is-invalid'">
+					th:field="*{joined_year}" class="formbox"
+					th:classappend="${#fields.hasErrors('joined_year')}?'is-invalid'">
 				<div th:if="${#fields.hasErrors('joined_year')}"
 					th:errors="*{joined_year}" style="color: red;"></div>
 			</div>
 
 			<div>
-				<label>案件概要/業務内容:</label>
+				案件概要/業務内容:
 				<textarea name="project_type" cols="30" rows="5" class="formbox"
-					WRAP="hard" th:classappend="${#fields.hasErrors('project_type')}?'is-invalid'"></textarea>
+					WRAP="hard" th:field="*{project_type}"
+					th:classappend="${#fields.hasErrors('project_type')}?'is-invalid'"></textarea>
 				<div th:if="${#fields.hasErrors('project_type')}"
 					th:errors="*{project_type}" style="color: red;"></div>
 			</div>
 		</div>
 
 
-		<input type="submit" value="登録" class="registbtn">
+		<input type="submit" value="更新" class="registbtn">
+
 	</form>
-
-
 	<input type="button" onclick="location.href='/list'" value="戻る"
 		class=backbtn>
+
+
 
 </body>
 </html>

@@ -1,16 +1,49 @@
 package com.example.demo.model;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 
 public class User {
 	private long id;
+
+	@NotEmpty(message = "社員コードを入力してください。")
+	@Pattern(regexp = "^[a-zA-Z0-9]+$", message = "社員コードは半角数値で入力してください。")
+	@Size(min = 4, max = 4, message = "社員コードは4文字で入力してください。")
+	/* カスタム＠登録しようとしている社員コードがすでに登録されていたらエラー出力 */
+	@UnUsedStaffCode(message="すでにその社員コードは登録されています")
 	private String staff_code;
+
+	@NotBlank(message = "姓を入力してください。")
+	@Size(max = 20, message = "姓は20文字で入力してください。")
 	private String last_name;
+
+	@NotBlank(message = "名を入力してください。")
+	@Size(max = 20, message = "名は20文字で入力してください。")
 	private String first_name;
+
+	@NotEmpty(message = "姓_ローマ字を入力してください。")
+	@Pattern(regexp = "^[a-zA-Z0-9]+$", message = "姓_ローマ字は半角英数字で入力して下さい。")
+	@Size(max = 40, message = "姓_ローマ字は40文字で入力してください。")
 	private String last_name_romaji;
+
+	@NotEmpty(message = "名_ローマ字を入力してください。")
+	@Pattern(regexp = "^[a-zA-Z0-9]+$", message = "名_ローマ字は半角英数字で入力してください。")
+	@Size(max = 40, message = "名_ローマ字は40文字で入力してください。")
 	private String first_name_romaji;
+
+	@NotEmpty(message = "所属を選択して下さい。")
+	
 	private String staff_department;
+
+	@Size(max = 100, message = "案件は100文字以下で入力して下さい。")
 	private String project_type;
+
+	@NotEmpty(message = "入社年を入力してください。")
+	@Pattern(regexp = "^[0-9]{4}\\/(0[1-9]|1[0-2])\\/(0[1-9]|[12][0-9]|3[01])$", message = "入社年は「yyyy/MM/dd」の形式で入力して下さい。")
 	private String joined_year;
+
 	private boolean new_glad_flg;
 
 	public long getId() {
@@ -93,13 +126,4 @@ public class User {
 		this.new_glad_flg = new_glad_flg;
 	}
 
-
-	public void setStat_count(String string) {
-		// TODO 自動生成されたメソッド・スタブ
-		
-	}
-
-
-
-	
 }

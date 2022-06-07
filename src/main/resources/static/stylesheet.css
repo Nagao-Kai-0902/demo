@@ -1,17 +1,62 @@
 @charset "UTF-8";
 
 body {
-	margin: 50px 160px;
+	margin: 40px 150px;
 }
 
 .staffbtn {
+	align-items: center;
+	padding: 1em 2em;
+	border-radius: 10px;
 	position: absolute;
-	right: 90px;
+	right: 140px;
+	top: 105px;
+	background-color: white;
+}
+
+.backbtn {
+	position: absolute;
+	right: 450px;
+	border-radius: 10px;
+	background-color: white;
+	align-items: center;
+	padding: 1em 2em;
+}
+.listBackHomebtn{
+	align-items: center;
+	padding: 1em 2em;
+	border-radius: 10px;
+	position: absolute;
+	right: 200px;
+	margin: 30px;
+	background-color: white;
+}
+
+.editbtn {
+	align-items: center;
+	padding: 1em 2em;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.registbtn {
+	position: absolute;
+	right: 350px;
+	border-radius: 10px;
+	background-color: white;
+	align-items: center;
+	padding: 1em 2em;
 }
 
 .staffbtnnew {
 	position: absolute;
-	right: 180px;
+	top: 105px;
+	right: 140px;
+	align-items: center;
+	padding: 1em 2em;
+	border-radius: 10px;
+	position: absolute;
+	background-color: white;
 }
 
 .toptitle {
@@ -24,27 +69,112 @@ body {
 	font-size: 25px;
 	border-bottom: solid 3px #d3d3d3;
 	margin-top: 30px;
+	margin-bottom : 30px;
 }
 
-table th{
-  padding : 20px;
+.align-middle {
+	box-sizing: border-box;
 }
 
-table td{
-  padding : 20px;
+table {
+	margin-left: auto;
+    margin-right: auto;
+    
 }
+
+table th {
+	padding: 5px;
+}
+
 p {
-	white-space: pre-wrap
+	white-space: pre-wrap;
+}
+/*管理画面CSSローマ字の変更  */
+.nameP {
+	word-wrap: break-word;
+	display:inline-block;
+	
+}
+.textp {
+	width: 150px;
+	white-space: pre;
 }
 
 .form-container {
 	text-align: right;
 	padding: 5px 350px 5px 0;
 }
-.formbox {
-	width: 250px;
+
+.box {
+	width: 177px;
 	border: 1px solid;
-	margin: 5px;
-	padding: 5px 0;
+	margin-top: 5px;
+	padding: 5px;
 	text-align: left;
+}
+
+.radioBox{
+	text-align: right;
+	margin-right: 31px;
+}
+
+.radio {
+	margin-left: 40px;
+	text-align: left;
+}
+
+.formbox {
+	width: 165px;
+	border: 1px solid;
+	margin-top: 5px;
+	padding: 5px;
+	text-align: left;
+}
+
+textarea {
+	vertical-align: top;
+}
+span{
+	color:red;
+}
+
+.disabled {
+	pointer-events: none;
+	width: 177px;
+	border: 1px solid;
+	margin-top: 5px;
+	padding: 5px;
+	text-align: left;
+	border-radius: 10px;
+	background-color: white;
+	align-items: center;
+	padding: 1em 2em;
+}
+
+.disabled1 {
+	pointer-events: none;
+	margin-left: 38px;
+	border-radius: 10px;
+	background-color: white;
+	align-items: center;
+	padding: 1em 2em;
+}
+
+.disabled2 {
+	pointer-events: none;
+	width: 177px;
+	border: 1px solid;
+	margin-top: 5px;
+	padding: 5px;
+	text-align: left;
+}
+
+.disabled3 {
+	pointer-events: none;
+	margin-top: 5px;
+	padding: 5px;
+	text-align: left;
+}
+.is-invalid{
+	border: solid 1px red !important;
 }
