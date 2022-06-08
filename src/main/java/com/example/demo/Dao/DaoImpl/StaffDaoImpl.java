@@ -36,9 +36,26 @@ public class StaffDaoImpl {
 				nowTime // updated_at
 		);
 	}
-	public void findStaffCode(String staffCode) {
-		String sql = "SELECT staff_code FROM staffs WHERE staff_code = ?";
-		
+
+	public User findNewGladFlg(String newGladFlg) {
+		System.out.println(newGladFlg);
+		Map<String, Object> staff = jdbc.queryForMap("SELECT * FROM staffs WHERE new_glad_flg = ?", newGladFlg); // sqlテーブルのデータを1件取得;
+		// //
+		// sqlテーブルのデータを1件取得
+
+		User user = new User();
+		user.setId((long) staff.get("id"));
+		user.setStaff_code((String) staff.get("staff_code"));
+		user.setLast_name((String) staff.get("last_name"));
+		user.setFirst_name((String) staff.get("first_name"));
+		user.setLast_name_romaji((String) staff.get("last_name_romaji"));
+		user.setFirst_name_romaji((String) staff.get("first_name_romaji"));
+		user.setJoined_year((String) staff.get("joined_year"));
+		user.setNew_glad_flg((Boolean) staff.get("new_glad_flg"));
+		user.setStaff_department((String) staff.get("staff_department"));
+		user.setProject_type((String) staff.get("project_type"));
+		return user;
+
 	}
 
 	public List<User> findAll() {

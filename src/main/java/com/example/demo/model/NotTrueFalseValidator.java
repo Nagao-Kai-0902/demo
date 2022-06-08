@@ -7,19 +7,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.example.demo.Dao.DaoImpl.StaffDaoImpl;
 
-public class UnUsedStaffCodeValidator implements ConstraintValidator<UnUsedStaffCode, String> {
-
+public class NotTrueFalseValidator implements ConstraintValidator<NotTrueFalse, String>  {
+	
 	@Autowired
     StaffDaoImpl staffDaoImpl;
 	
 	@Override
-    public void initialize(UnUsedStaffCode constraintAnnotation) {
+    public void initialize(NotTrueFalse constraintAnnotation) {
     }
 	
 	@Override
-	public boolean isValid(String staffCode, ConstraintValidatorContext context) {
+	public boolean isValid(String newGladFlgValue, ConstraintValidatorContext context) {
 		
-		User user = staffDaoImpl.selectOne(staffCode);
+		User user = staffDaoImpl.findNewGladFlg(newGladFlgValue);
 		if(user!=null) {
             return false;
         }
