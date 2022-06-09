@@ -84,6 +84,8 @@ table {
 
 table th {
 	padding: 5px;
+	table-layout: fixed;
+	
 }
 
 p {
@@ -91,13 +93,13 @@ p {
 }
 /*管理画面CSSローマ字の変更  */
 .nameP {
-	word-wrap: break-word;
-	display:inline-block;
+	word-break : break-all;
+	/* display:inline-block; */
+	width: 130px;
 	
 }
 .textp {
 	width: 150px;
-	white-space: pre;
 }
 
 .form-container {
@@ -135,7 +137,7 @@ textarea {
 	vertical-align: top;
 }
 span{
-	color:red;
+	/* color:red; */
 }
 
 .disabled {
