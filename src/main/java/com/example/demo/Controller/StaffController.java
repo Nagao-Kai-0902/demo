@@ -3,6 +3,7 @@ package com.example.demo.Controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.IncorrectResultSizeDataAccessException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import com.example.demo.Dao.DaoImpl.StaffDaoImpl;
 import com.example.demo.Service.StaffDataService;
 import com.example.demo.model.GroupOrder;
 import com.example.demo.model.User;
@@ -24,6 +26,7 @@ import com.example.demo.model.User;
 public class StaffController {
 	@Autowired
 	StaffDataService service;
+	StaffDaoImpl staffDaoImpl;
 
 	@RequestMapping(path = "home", method = RequestMethod.GET)
 	public String home(Model model) {
@@ -56,8 +59,8 @@ public class StaffController {
 	}
 
 	@RequestMapping(path = "new/registration", method = RequestMethod.POST)
-	public String insert(@ModelAttribute("user") @Validated(GroupOrder.class) User user,  BindingResult result, Model model,
-			RedirectAttributes redirectAttributes) {
+	public String insert(@ModelAttribute("user") @Validated(GroupOrder.class) User user, BindingResult result,
+			Model model, RedirectAttributes redirectAttributes) {
 
 		if (result.hasErrors()) {
 //			List<String> errorList = new ArrayList<String>();
@@ -66,6 +69,15 @@ public class StaffController {
 //			}
 //			redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.test1Form", result);
 //			model.addAttribute("validationError", errorList);
+			return "new";
+		}
+		/*
+		 * この処理の後に社員コードエラー 実装 modelにエラーフラグとエラーメッセージをセット社員コードの上にメッセージを表示
+		 */
+		User user1 = service.selectOne(user.getStaff_code());
+		if (user1 != null) {
+			String errorMessage = "すでにその社員コードは登録されています";
+			model.addAttribute("validationError", errorMessage);
 			return "new";
 		}
 
@@ -107,9 +119,9 @@ public class StaffController {
 	}
 
 	@RequestMapping(path = "/update", method = RequestMethod.POST)
-	public String update(@ModelAttribute("user") @Validated(GroupOrder.class) User user, BindingResult result, Model model,
-			RedirectAttributes redirectAttributes, @PathVariable("staff_code_before") @RequestParam String staff_code_before,
-			String staff_code) {
+	public String update(@ModelAttribute("user") @Validated(GroupOrder.class) User user, BindingResult result,
+			Model model, RedirectAttributes redirectAttributes,
+			@PathVariable("staff_code_before") @RequestParam String staff_code_before, String staff_code) {
 
 		if (result.hasErrors()) {
 //			List<String> errorList = new ArrayList<String>();
@@ -122,15 +134,35 @@ public class StaffController {
 //			model.addAttribute("user", user1);
 			return "edit";
 		}
+		
+		/* 1件または、０件の時は、更新できるようにする */
+		if (!(staff_code.equals(staff_code_before))) {
+			try {
+				User user1 = service.selectOne(staff_code);
+				if (user1 != null) {
+					String errorMessage = "すでにその社員コードは登録されています";
+					model.addAttribute("validationError", errorMessage);
+					model.addAttribute("user", user);
+					return "/edit";
+				}
+			}catch(IncorrectResultSizeDataAccessException e){
+				//登録する社員コードがDBに存在しないときに
+				service.updateOne(staff_code_before, user);
+
+				return "/update";
+			}
+			
+			
+		}
 		service.updateOne(staff_code_before, user);
 
 		return "/update";
 	}
 
 	@GetMapping(value = "/delete/{staff_code}")
-	public String displayDelete(Model model, @PathVariable("staff_code") String staff_ode) {
+	public String displayDelete(Model model, @PathVariable("staff_code") String staff_code) {
 
-		User user = service.deleteOne(staff_ode);
+		User user = service.deleteOne(staff_code);
 		model.addAttribute("user", user);
 
 		return "/delete";
