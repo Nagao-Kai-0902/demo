@@ -16,7 +16,6 @@ public class User {
 	@Pattern(groups = ValidGroup2.class, regexp = "^[a-zA-Z0-9]+$", message = "社員コードは半角数値で入力してください。")
 	@Size(groups = ValidGroup3.class, min = 4, max = 4, message = "社員コードは4文字で入力してください。")
 	/* カスタム＠登録しようとしている社員コードがすでに登録されていたらエラー出力 */
-	@UnUsedStaffCode(groups = ValidGroup4.class, message = "すでにその社員コードは登録されています")
 	private String staff_code;
 
 	@NotBlank(groups = ValidGroup.class, message = "姓を入力してください。")
@@ -38,17 +37,23 @@ public class User {
 	private String first_name_romaji;
 
 	@NotEmpty(groups = ValidGroup.class, message = "所属を選択して下さい。")
-	@Pattern(groups = ValidGroup2.class, regexp = "[0-9]{4}", message = "正しい値を入力してください。")
+	/*
+	 * @Pattern(groups = ValidGroup2.class, regexp = "[0-9]{4}", message =
+	 * "正しい値を入力してください。")
+	 */
 	private String staff_department;
 
-	@Size(groups = ValidGroup3.class, max = 100, message = "案件は100文字以下で入力して下さい。")
+	@Size(groups = ValidGroup3.class, max = 108, message = "案件は100文字以下で入力して下さい。")
+	/* 今回のテキストボックスでは文頭と、文最後に空白が自動で入ってしまう。
+	 * そのため、今回の最大値が100文字、100文字書くと4行に連なるため、計8文字追加されてしまうことになる
+	 * よって最大値を100文字ではなく、108文字に設定 */
 	private String project_type;
 
 	@NotEmpty(groups = ValidGroup.class, message = "入社年を入力してください。")
 	@Pattern(groups = ValidGroup2.class, regexp = "^[0-9]{4}\\/(0[1-9]|1[0-2])\\/(0[1-9]|[12][0-9]|3[01])$", message = "入社年は「yyyy/MM/dd」の形式で入力して下さい。")
 	private String joined_year;
 
-	@NotTrueFalse(groups = ValidGroup.class,message = "正しい値を入力してください。") 
+	/* @NotTrueFalse(groups = ValidGroup.class,message = "正しい値を入力してください。") */
 	/*
 	 * @AssertTrue(message = "正しい値を入力してください。")
 	 * 
