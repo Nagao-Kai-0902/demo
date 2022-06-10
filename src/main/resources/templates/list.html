@@ -17,17 +17,16 @@
 		</div>
 	</div>
 
-	<div th:if="${userList == null}">社員情報はありません</div>
+	<div th:if="*{#lists.isEmpty(userList)}">社員情報はありません</div>
 
-
-	<div th:if="${userList ne null}">
+	<div th:unless="*{#lists.isEmpty(userList)}">
 		<table border="1" style="border-collapse: collapse;" >
 			<thead style="display: block; box-sizing: border-box;">
 				<tr>
-					<th style="width: 55px; font-weight: normal;">No</th>
-					<th style="width: 130px; font-weight: normal;">社員コード</th>
+					<th style="width: 50px; font-weight: normal;">No</th>
+					<th style="width: 100px; font-weight: normal;">社員コード</th>
 					<th style="width: 150px; font-weight: normal;">姓 名</th>
-					<th style="width: 130px; font-weight: normal;">姓名 ローマ字</th>
+					<th style="width: 150px; font-weight: normal;">姓名 ローマ字</th>
 					<th style="width: 105px; font-weight: normal;">入社年月日</th>
 					<th style="width: 90px; font-weight: normal;">編集</th>
 					<th style="width: 90px; font-weight: normal;">削除</th>
@@ -35,15 +34,15 @@
 			</thead>
 
 			<tbody style="display: inline-block; ">
-				<tr th:each="user ,stat : ${userList}" th:object="${user}" class="align-middle">
-					<th style="width: 55px; font-weight: normal;"
+				<tr th:each="user ,stat : ${userList}" th:object="${user}">
+					<th style="width: 50px; font-weight: normal;"
 						th:text="${stat.count}"></th>
-					<th style="width: 130px; font-weight: normal;"
+					<th style="width: 100px; font-weight: normal;"
 						th:text="*{staff_code}"></th>
 					<th style="width: 150px; font-weight: normal;"
 						th:text="*{last_name} + ' '+ *{first_name}"></th>
-					<th style="width: 130px; font-weight: normal;"
-						th:text="*{last_name_romaji} + ' '+ *{first_name_romaji}" class="nameP"></th>
+					<th style="width: 150px; font-weight: normal;"
+						th:text="*{last_name_romaji} + ' '+ *{first_name_romaji}" class="nameP" ></th>
 					<th style="width: 105px; font-weight: normal;"
 						th:text="*{joined_year}"></th>
 					<th style="width: 90px; font-weight: normal;">

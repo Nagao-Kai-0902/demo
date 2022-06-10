@@ -18,9 +18,9 @@
 		</div>
 	</div>
 
-	<div th:if="${engineerMembers == null}">社員情報はありません</div>
+	<div th:if="*{#lists.isEmpty(engineerMembers)}">社員情報はありません</div>
 
-	<div th:if="${engineerMembers ne null}">
+	<div th:unless="*{#lists.isEmpty(engineerMembers)}">
 		<table border="1" style="border-collapse: collapse;">
 			<thead style="display: block; box-sizing: border-box;">
 				<tr>
@@ -60,9 +60,9 @@
 		<div class="subtitle">営業</div>
 	</div>
 
-	<div th:if="${salesMembers == null}">社員情報はありません</div>
+	<div th:if="*{#lists.isEmpty(salesMembers)}">社員情報はありません</div>
 
-	<div th:if="${salesMembers ne null}">
+	<div th:unless="*{#lists.isEmpty(engineerMembers)}">
 		<table border="1" style="border-collapse: collapse;">
 			<thead style="display: block; box-sizing: border-box;">
 				<tr>
@@ -100,9 +100,9 @@
 		<div class="subtitle">コーポレート</div>
 	</div>
 
-	<div th:if="${corporateMembers == null}">社員情報はありません</div>
+	<div th:if="*{#lists.isEmpty(corporateMembers)}">社員情報はありません</div>
 
-	<div th:if="${corporateMembers ne null}">
+	<div th:unless="*{#lists.isEmpty(corporateMembers)}">
 		<table border="1" style="border-collapse: collapse;">
 			<thead style="display: block; box-sizing: border-box;">
 				<tr>

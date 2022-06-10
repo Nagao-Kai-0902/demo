@@ -62,7 +62,7 @@ public class StaffDaoImpl {
 
 		String sql = "SELECT id,staff_code,last_name,first_name,last_name_romaji"
 				+ " ,first_name_romaji,staff_department,project_type,joined_year,new_glad_flg"
-				+ "	,created_by,updated_by,created_at,updated_at FROM staffs";
+				+ "	,created_by,updated_by,created_at,updated_at FROM staffs ORDER BY staff_code ASC";
 		List<Map<String, Object>> users = jdbc.queryForList(sql);
 		List<User> userList = new ArrayList<User>();
 		for (Map<String, Object> eachUser : users) {
