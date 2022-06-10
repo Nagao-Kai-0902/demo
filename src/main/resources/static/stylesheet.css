@@ -126,6 +126,7 @@ p {
 }
 
 .formbox {
+	resize: none;
 	width: 165px;
 	border: 1px solid;
 	margin-top: 5px;
