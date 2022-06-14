@@ -60,12 +60,6 @@ public class StaffController {
 			RedirectAttributes redirectAttributes) {
 
 		if (result.hasErrors()) {
-//			List<String> errorList = new ArrayList<String>();
-//			for (ObjectError error : result.getAllErrors()) {
-//				errorList.add(error.getDefaultMessage());
-//			}
-//			redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.test1Form", result);
-//			model.addAttribute("validationError", errorList);
 			return "new";
 		}
 
@@ -112,14 +106,6 @@ public class StaffController {
 			String staff_code) {
 
 		if (result.hasErrors()) {
-//			List<String> errorList = new ArrayList<String>();
-//			for (ObjectError error : result.getAllErrors()) {
-//				errorList.add(error.getDefaultMessage());
-//			}
-//			redirectAttributes.addFlashAttribute("staff_code", staff_code_before);
-//			redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.user", result);
-//			User user1 = service.selectOne(staff_code_before);
-//			model.addAttribute("user", user1);
 			return "edit";
 		}
 		service.updateOne(staff_code_before, user);
