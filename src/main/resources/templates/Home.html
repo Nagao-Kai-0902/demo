@@ -88,8 +88,9 @@
 					<th style="width: 105px; font-weight: normal;"
 						th:if="*{new_glad_flg == true}" th:text="中途"></th>
 					<th style="width: 225px; font-weight: normal;" class="textp">
-						<span th:if="*{#strings.isEmpty(project_type)}" class="textp">-</span> 
-						<span th:unless="*{#strings.isEmpty(project_type)}" th:text="*{project_type}" class="textp"></span>
+						<span th:if="*{#strings.isEmpty(project_type)}" class="textp">-</span>
+						<span th:unless="*{#strings.isEmpty(project_type)}"
+						th:text="*{project_type}" class="textp"></span>
 					</th>
 				</tr>
 			</tbody>
