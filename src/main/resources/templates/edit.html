@@ -12,6 +12,8 @@
 	<div class="subtitle">社員情報</div>
 	<form method="post" action="/update" th:object="${user}">
 		<div class="form-container">
+			<div th:if="${validationError != null}" th:text="${validationError}"
+				style="color: red;"></div>
 
 			<div>
 				社員コード(<span>※</span>): <input type="text" name="staff_code"
