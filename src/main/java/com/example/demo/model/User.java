@@ -8,14 +8,9 @@ import javax.validation.constraints.Size;
 public class User {
 	private long id;
 
-	/*
-	 * バリデーションが複数ある場合にはグループ化が必要 ただエラーがどういう順で発動するのかを考えることが難しい ValidGroupはnull,空白チェック
-	 * ValidGroup2はパターンチェック ValidGroup3はサイズチェック
-	 */
 	@NotEmpty(groups = ValidGroup.class, message = "社員コードを入力してください。")
 	@Pattern(groups = ValidGroup2.class, regexp = "^[a-zA-Z0-9]+$", message = "社員コードは半角数値で入力してください。")
 	@Size(groups = ValidGroup3.class, min = 4, max = 4, message = "社員コードは4文字で入力してください。")
-	/* カスタム＠登録しようとしている社員コードがすでに登録されていたらエラー出力 */
 	private String staff_code;
 
 	@NotBlank(groups = ValidGroup.class, message = "姓を入力してください。")
@@ -37,10 +32,6 @@ public class User {
 	private String first_name_romaji;
 
 	@NotEmpty(groups = ValidGroup.class, message = "所属を選択して下さい。")
-	/*
-	 * @Pattern(groups = ValidGroup2.class, regexp = "[0-9]{4}", message =
-	 * "正しい値を入力してください。")
-	 */
 	private String staff_department;
 
 	@Size(groups = ValidGroup3.class, max = 108, message = "案件は100文字以下で入力して下さい。")
@@ -53,12 +44,6 @@ public class User {
 	@Pattern(groups = ValidGroup2.class, regexp = "^[0-9]{4}\\/(0[1-9]|1[0-2])\\/(0[1-9]|[12][0-9]|3[01])$", message = "入社年は「yyyy/MM/dd」の形式で入力して下さい。")
 	private String joined_year;
 
-	/* @NotTrueFalse(groups = ValidGroup.class,message = "正しい値を入力してください。") */
-	/*
-	 * @AssertTrue(message = "正しい値を入力してください。")
-	 * 
-	 * @AssertFalse(message = "正しい値を入力してください。")
-	 */
 	private boolean new_glad_flg;
 
 	public long getId() {
