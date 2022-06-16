@@ -14,13 +14,11 @@
 	<div class="toptitle">社員情報新規登録</div>
 
 	<div class="subtitle">社員情報</div>
-	<!-- <table>
-		<tr th:if="${validationError}" th:each="error : ${validationError}">
-			<td style="color: red;" th:text="${error}"></td>
-		</tr>
-	</table> -->
+
 	<form method="post" action="/new/registration" th:object="${user}">
 		<div class="form-container">
+			<div th:if="${validationError != null}" th:text="${validationError}"
+				style="color: red;"></div>
 
 			<div>
 				<div class="form-group">
@@ -35,7 +33,8 @@
 
 			<div>
 				姓(<span>※</span>): <input type="text" name="last_name"
-					class="formbox" th:classappend="${#fields.hasErrors('last_name')}?'is-invalid'">
+					class="formbox"
+					th:classappend="${#fields.hasErrors('last_name')}?'is-invalid'">
 				<div th:if="${#fields.hasErrors('last_name')}"
 					th:errors="*{last_name}" style="color: red;"></div>
 
@@ -43,28 +42,32 @@
 
 			<div>
 				名(<span>※</span>): <input type="text" name="first_name"
-					class="formbox" th:classappend="${#fields.hasErrors('first_name')}?'is-invalid'">
+					class="formbox"
+					th:classappend="${#fields.hasErrors('first_name')}?'is-invalid'">
 				<div th:if="${#fields.hasErrors('first_name')}"
 					th:errors="*{first_name}" style="color: red;"></div>
 
 				<div></div>
 				姓 ローマ字(<span>※</span>): <input type="text" name="last_name_romaji"
-					class="formbox" th:classappend="${#fields.hasErrors('last_name_romaji')}?'is-invalid'">
+					class="formbox"
+					th:classappend="${#fields.hasErrors('last_name_romaji')}?'is-invalid'">
 				<div th:if="${#fields.hasErrors('last_name_romaji')}"
 					th:errors="*{last_name_romaji}" style="color: red;"></div>
 			</div>
 
 			<div>
 				名 ローマ字(<span>※</span>): <input type="text" name="first_name_romaji"
-					class="formbox" th:classappend="${#fields.hasErrors('first_name_romaji')}?'is-invalid'">
+					class="formbox"
+					th:classappend="${#fields.hasErrors('first_name_romaji')}?'is-invalid'">
 				<div th:if="${#fields.hasErrors('first_name_romaji')}"
 					th:errors="*{first_name_romaji}" style="color: red;"></div>
 			</div>
 
 			<div>
 				所属 (<span>※</span>): <select name="staff_department" size="1"
-					class="box" th:classappend="${#fields.hasErrors('staff_department')}?'is-invalid'">
-					<option value="" >3つの選択肢を表示</option>
+					class="box"
+					th:classappend="${#fields.hasErrors('staff_department')}?'is-invalid'">
+					<option value="">3つの選択肢を表示</option>
 					<option value="0001">エンジニア</option>
 					<option value="0002">営業</option>
 					<option value="0003">コーポレート</option>
@@ -82,7 +85,8 @@
 
 			<div>
 				入社年月日(<span>※</span>): <input type="text" name="joined_year"
-					class="formbox" th:classappend="${#fields.hasErrors('joined_year')}?'is-invalid'">
+					class="formbox"
+					th:classappend="${#fields.hasErrors('joined_year')}?'is-invalid'">
 				<div th:if="${#fields.hasErrors('joined_year')}"
 					th:errors="*{joined_year}" style="color: red;"></div>
 			</div>
@@ -90,7 +94,8 @@
 			<div>
 				<label>案件概要/業務内容:</label>
 				<textarea name="project_type" cols="30" rows="5" class="formbox"
-					WRAP="hard" th:classappend="${#fields.hasErrors('project_type')}?'is-invalid'"></textarea>
+					WRAP="hard"
+					th:classappend="${#fields.hasErrors('project_type')}?'is-invalid'"></textarea>
 				<div th:if="${#fields.hasErrors('project_type')}"
 					th:errors="*{project_type}" style="color: red;"></div>
 			</div>
