@@ -22,7 +22,8 @@ body {
 	align-items: center;
 	padding: 1em 2em;
 }
-.listBackHomebtn{
+
+.listBackHomebtn {
 	align-items: center;
 	padding: 1em 2em;
 	border-radius: 10px;
@@ -69,7 +70,7 @@ body {
 	font-size: 25px;
 	border-bottom: solid 3px #d3d3d3;
 	margin-top: 30px;
-	margin-bottom : 30px;
+	margin-bottom: 30px;
 }
 
 .align-middle {
@@ -78,26 +79,23 @@ body {
 
 table {
 	margin-left: auto;
-    margin-right: auto;
-    
+	margin-right: auto;
 }
 
 table th {
 	padding: 5px;
 	table-layout: fixed;
-	
 }
 
 p {
 	white-space: pre-wrap;
 }
-/*管理画面CSSローマ字の変更  */
+
 .nameP {
-	word-break : break-all;
-	/* display:inline-block; */
+	word-break: break-all;
 	width: 130px;
-	
 }
+
 .textp {
 	width: 150px;
 }
@@ -115,7 +113,7 @@ p {
 	text-align: left;
 }
 
-.radioBox{
+.radioBox {
 	text-align: right;
 	margin-right: 31px;
 }
@@ -135,9 +133,6 @@ p {
 
 textarea {
 	vertical-align: top;
-}
-span{
-	/* color:red; */
 }
 
 .disabled {
@@ -177,6 +172,7 @@ span{
 	padding: 5px;
 	text-align: left;
 }
-.is-invalid{
+
+.is-invalid {
 	border: solid 1px red !important;
 }
