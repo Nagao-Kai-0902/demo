@@ -35,9 +35,9 @@ public class User {
 	private String staff_department;
 
 	@Size(groups = ValidGroup3.class, max = 108, message = "案件は100文字以下で入力して下さい。")
-	/* 今回のテキストボックスでは文頭と、文最後に空白が自動で入ってしまう。
-	 * そのため、今回の最大値が100文字、100文字書くと4行に連なるため、計8文字追加されてしまうことになる
-	 * よって最大値を100文字ではなく、108文字に設定 */
+	//NOTE 今回のテキストボックスでは文頭と、文最後に空白が自動で入ってしまう。
+	//NOTE そのため、今回の最大値が100文字、100文字書くと4行に連なるため、計8文字追加されてしまうことになる
+	//NOTE よって最大値を100文字ではなく、108文字に設定 
 	private String project_type;
 
 	@NotEmpty(groups = ValidGroup.class, message = "入社年を入力してください。")
